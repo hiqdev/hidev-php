@@ -50,5 +50,6 @@ codeception.yml:
 aliases:
     t: test
     g: default/grep
+
 test:
     sh: 'echo TEST'
