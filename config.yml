@@ -1,0 +1,79 @@
+vendor:
+    name:       hiqdev
+    title:      HiQDev
+    homepage:   https://hiqdev.com/
+    forum:      https://forum.hiqdev.com/
+    email:      support@hiqdev.com
+    license:    BSD-3-Clause
+    authors:
+        'Andrii Vasyliev':
+            role:       Project lead
+            email:      sol@hiqdev.com
+            homepage:   https://hipanel.com/
+        'Dmitry Naumenko':
+            role:       Lead backend developer
+            email:      silverfire@hiqdev.com
+            homepage:   http://silverfire.me/
+        'Andrey Klochok':
+            role:       Lead frontend developer
+            email:      tafid@hiqdev.com
+            homepage:   https://hiqdev.com/
+        'Yuriy Myronchuk':
+            role:       QA Lead
+            email:      bladeroot@hiqdev.com
+            homepage:   https://hiqdev.com/
+
+deps: all
+all:
+    deps: git, composer, LICENSE, README.md, CHANGELOG.md, .php_cs
+fix:
+    deps: php-cs-fixer
+test:
+    deps: codeception
+
+php-cs-fixer:
+    level: symfony
+    header: |
+        {{ config.package.title }}
+
+        @link      {{ config.package.homepage }}
+        @package   {{ config.package.name }}
+        @license   {{ config.package.license }}
+        @copyright Copyright (c) {{ config.package.years }}, {{ config.vendor.titleAndHomepage }}
+    fixers:
+        '-long_array_syntax':                   Arrays should use the long syntax.
+        '-php4_constructor':                    Convert PHP4-style constructors to __construct. Warning! This could change code behavior.
+        '-phpdoc_var_to_type':                  @var should always be written as @type.
+        'header_comment':                       Add, replace or remove header comment.
+        'align_double_arrow':                   Align double arrow symbols in consecutive lines.
+        'align_equals':                         Align equals symbols in consecutive lines.
+        'concat_with_spaces':                   Concatenation should be used with at least one whitespace around.
+        'ereg_to_preg':                         Replace deprecated ereg regular expression functions with preg. Warning! This could change code behavior.
+        'multiline_spaces_before_semicolon':    Multi-line whitespace before closing semicolon are prohibited.
+        'newline_after_open_tag':               Ensure there is no code on the same line as the PHP open tag.
+        'single_blank_line_before_namespace':   There should be no blank lines before a namespace declaration.
+        'ordered_use':                          Ordering use statements.
+        'phpdoc_order':                         Annotations in phpdocs should be ordered so that @param come first, then @throws, then @return.
+        'pre_increment':                        Pre incrementation/decrementation should be used if possible.
+        'short_array_syntax':                   PHP arrays should use the PHP 5.4 short-syntax.
+        'strict':                               Comparison should be strict. Warning! This could change code behavior.
+        'strict_param':                         Functions should be used with $strict param. Warning! This could change code behavior.
+    finder:
+        notPath:
+            - runtime
+            - tests/unit/UnitTester.php
+
+codeception:
+    deps:
+        - generate/mkdir tests
+        - generate/once  tests/_bootstrap
+
+codeception.yml:
+    coverage:
+        enable: true
+
+aliases:
+    t: test
+    g: default/grep
+test:
+    sh: 'echo TEST'

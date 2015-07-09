@@ -1,0 +1,32 @@
+<?php
+{% set classdir  = file.dirname|replace({'tests/unit':'', '/':'\\'}) %}
+{% set classname = file.filename[:-4] %}
+{% set classpath = classdir ~ '\\' ~ classname %}
+{% set classfull = config.package.namespace ~ '\\' ~ classpath %}
+
+namespace {{ config.package.namespace }}\{{ file.dirname|replace({'/':'\\'}) }};
+
+use Yii;
+use {{ classfull|replace({'\\\\': '\\'}) }};
+
+class {{ classname }}Test extends \PHPUnit_Framework_TestCase
+{
+    public $sample;
+
+    protected function setUp()
+    {
+        $this->sample = Yii::createObject([
+            'class' => {{ classname }}::className(),
+        ]);
+    }
+
+    protected function tearDown()
+    {
+        $this->sample = null;
+    }
+
+    public function testConstruct()
+    {
+        $this->assertNotNull($this->sample);
+    }
+}

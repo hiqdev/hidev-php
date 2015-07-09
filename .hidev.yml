@@ -1,0 +1,8 @@
+package:
+    name:           hidev-config-php
+    namespace:      hiqdev\hidev\config\php
+    label:          HiDevConfigPHP
+    title:          HiQDev's hidev config for PHP projects
+    type:           yii2-extension
+    keywords:       hiqdev, hidev, config, php
+    year:           2015

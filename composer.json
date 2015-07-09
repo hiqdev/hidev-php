@@ -1,0 +1,56 @@
+{
+    "name": "hiqdev/hidev-config-php",
+    "type": "yii2-extension",
+    "description": "HiQDev's hidev config for PHP projects",
+    "keywords": [
+        "hiqdev",
+        "hidev",
+        "config",
+        "php"
+    ],
+    "homepage": "https://github.com/hiqdev/hidev-config-php",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/hidev-config",
+        "issues": "https://github.com/hiqdev/hidev-config/issues",
+        "wiki": "https://github.com/hiqdev/hidev-config/wiki",
+        "forum": "https://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "silverfire@hiqdev.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "tafid@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "hiqdev/hidev-config": "*@dev",
+        "hiqdev/hidev-php-cs-fixer": "*@dev",
+        "hiqdev/hidev-codeception": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "hiqdev\\hidev\\config\\php\\": ""
+        }
+    }
+}
