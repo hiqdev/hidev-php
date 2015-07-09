@@ -9,16 +9,16 @@
  * @copyright Copyright (c) 2015, HiQDev (https://hiqdev.com/)
  */
 
-namespace hiqdev\hidev\config;
+namespace hiqdev\hidev\config\php;
 
 class Plugin extends \hiqdev\pluginmanager\Plugin
 {
     protected $_items = [
         'configFiles' => [
-            '@hiqdev/hidev/config/config.yml',
+            '@hiqdev/hidev/config/php/config.yml',
         ],
         'views' => [
-            '@hiqdev/hidev/config/views',
+            '@hiqdev/hidev/config/php/views',
         ],
     ];
 }
