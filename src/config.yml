@@ -1,28 +1,3 @@
-vendor:
-    name:       hiqdev
-    title:      HiQDev
-    homepage:   https://hiqdev.com/
-    forum:      https://forum.hiqdev.com/
-    email:      support@hiqdev.com
-    license:    BSD-3-Clause
-    authors:
-        'Andrii Vasyliev':
-            role:       Project lead
-            email:      sol@hiqdev.com
-            homepage:   https://hipanel.com/
-        'Dmitry Naumenko':
-            role:       Lead backend developer
-            email:      silverfire@hiqdev.com
-            homepage:   http://silverfire.me/
-        'Andrey Klochok':
-            role:       Lead frontend developer
-            email:      tafid@hiqdev.com
-            homepage:   https://hiqdev.com/
-        'Yuriy Myronchuk':
-            role:       QA Lead
-            email:      bladeroot@hiqdev.com
-            homepage:   https://hiqdev.com/
-
 deps: all
 all:
     deps: git, composer, LICENSE, README.md, CHANGELOG.md, .php_cs
