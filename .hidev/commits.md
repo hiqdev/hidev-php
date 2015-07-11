@@ -1,7 +1,10 @@
 hiqdev/hidev-config-php commits history
 ---------------------------------------
 
-## Under development
+## 0.0.2 Under development
+
+
+## 0.0.1 2015-07-11
 
 - Changed config: redone parent to plugins
     - a8b6278 2015-07-11 simplified .hidev/config require to hidev-config-php only (sol@hiqdev.com)

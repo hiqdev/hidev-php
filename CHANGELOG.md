@@ -1,7 +1,10 @@
 hiqdev/hidev-config-php changelog
 ---------------------------------
 
-## Under development
+## 0.0.2 Under development
+
+
+## 0.0.1 2015-07-11
 
 - Changed config: redone parent to plugins
 - Inited
