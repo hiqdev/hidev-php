@@ -1,10 +1,10 @@
 <?php
 
 /*
- * Codeception plugin for HiDev
+ * HiQDev&#039;s hidev config for PHP projects
  *
- * @link      https://github.com/hiqdev/hidev-codeception
- * @package   hidev-codeception
+ * @link      https://github.com/hiqdev/hidev-config-php
+ * @package   hidev-config-php
  * @license   BSD-3-Clause
  * @copyright Copyright (c) 2015, HiQDev (https://hiqdev.com/)
  */
