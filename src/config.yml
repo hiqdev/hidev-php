@@ -1,6 +1,6 @@
 deps: all
 all:
-    deps: git, composer, LICENSE, README.md, CHANGELOG.md, .php_cs
+    deps: composer, LICENSE, README.md, CHANGELOG.md, .php_cs, git
 fix:
     deps: php-cs-fixer
 test:
