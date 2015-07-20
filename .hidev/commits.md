@@ -3,6 +3,11 @@ hiqdev/hidev-config-php commits history
 
 ## 0.0.2 Under development
 
+- fixes for 'all' goal
+    - df50f43 2015-07-20 * all goal deps: - .php_cs, git (sol@hiqdev.com)
+    - 7323c43 2015-07-17 php-cs-fixed (sol@hiqdev.com)
+    - c83d6cb 2015-07-17 regenerated .gitignore (sol@hiqdev.com)
+    - b1fdf38 2015-07-17 * deps: git moved to be last (sol@hiqdev.com)
 
 ## 0.0.1 2015-07-11
 

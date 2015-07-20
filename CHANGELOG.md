@@ -3,6 +3,7 @@ hiqdev/hidev-config-php changelog
 
 ## 0.0.2 Under development
 
+- fixes for 'all' goal
 
 ## 0.0.1 2015-07-11
 
