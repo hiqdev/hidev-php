@@ -1,7 +1,10 @@
 hiqdev/hidev-config-php changelog
 ---------------------------------
 
-## 0.0.2 Under development
+## 0.0.3 Under development
+
+
+## 0.0.2 2015-08-17
 
 - Changed to be usable for any vendor
 - Fixed dependencies for 'all' goal

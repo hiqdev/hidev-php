@@ -1,7 +1,10 @@
 hiqdev/hidev-config-php commits history
 ---------------------------------------
 
-## 0.0.2 Under development
+## 0.0.3 Under development
+
+
+## 0.0.2 2015-08-17
 
 - Changed to be usable for any vendor
     - 270433d 2015-08-17 making this extension generally usable (sol@hiqdev.com)

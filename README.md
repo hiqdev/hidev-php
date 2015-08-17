@@ -26,6 +26,6 @@ to the require section of your composer.json.
 
 ## Licence
 
-BSD-3-Clause
+[BSD-3-Clause](http://choosealicense.com/licenses/bsd-3-clause)
 
 Copyright © 2015, HiQDev (https://hiqdev.com/)
