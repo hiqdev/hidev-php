@@ -3,6 +3,7 @@ hiqdev/hidev-config-php changelog
 
 ## 0.0.3 Under development
 
+- Fixed minor: docs and php-cs-fixed
 
 ## 0.0.2 2015-08-17
 

@@ -3,6 +3,8 @@ hiqdev/hidev-config-php commits history
 
 ## 0.0.3 Under development
 
+- Fixed minor: docs and php-cs-fixed
+    - f8e1ba9 2015-08-17 fixed project description (sol@hiqdev.com)
 
 ## 0.0.2 2015-08-17
 
