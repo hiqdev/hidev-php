@@ -3,7 +3,7 @@ hiqdev/hidev-config-php commits history
 
 ## 0.0.2 Under development
 
-- Changed: making this extension generally usable
+- Changed to be usable for any vendor
     - 270433d 2015-08-17 making this extension generally usable (sol@hiqdev.com)
     - 3db083a 2015-08-17 * README (sol@hiqdev.com)
 - Fixed dependencies for 'all' goal

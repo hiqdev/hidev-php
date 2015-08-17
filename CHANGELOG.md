@@ -3,7 +3,7 @@ hiqdev/hidev-config-php changelog
 
 ## 0.0.2 Under development
 
-- Changed: making this extension generally usable
+- Changed to be usable for any vendor
 - Fixed dependencies for 'all' goal
 
 ## 0.0.1 2015-07-11
