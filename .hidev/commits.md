@@ -3,7 +3,10 @@ hiqdev/hidev-config-php commits history
 
 ## 0.0.2 Under development
 
-- fixes for 'all' goal
+- Changed: making this extension generally usable
+    - 270433d 2015-08-17 making this extension generally usable (sol@hiqdev.com)
+    - 3db083a 2015-08-17 * README (sol@hiqdev.com)
+- Fixed dependencies for 'all' goal
     - df50f43 2015-07-20 * all goal deps: - .php_cs, git (sol@hiqdev.com)
     - 7323c43 2015-07-17 php-cs-fixed (sol@hiqdev.com)
     - c83d6cb 2015-07-17 regenerated .gitignore (sol@hiqdev.com)
