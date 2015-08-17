@@ -1,7 +1,12 @@
 Hidev config for PHP projects
 -----------------------------
 
-Hidev config for PHP projects
+All you need for PHP projects:
+- standart: LICENSE, README.md, CHANGELOG.md
+- composer.json
+- php-cs-fixer
+- codeception
+
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-config-php/v/stable.png)](https://packagist.org/packages/hiqdev/hidev-config-php)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-config-php/downloads.png)](https://packagist.org/packages/hiqdev/hidev-config-php)

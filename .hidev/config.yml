@@ -6,6 +6,12 @@ package:
     type:           yii2-extension
     keywords:       hidev, config, php
     year:           2015
+    description:    |
+        All you need for PHP projects:
+        - standart: LICENSE, README.md, CHANGELOG.md
+        - composer.json
+        - php-cs-fixer
+        - codeception
 
 require:
     hiqdev/hidev-config:        "*@dev"
