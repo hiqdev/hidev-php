@@ -35,7 +35,9 @@ php-cs-fixer:
         'strict_param':                         Functions should be used with $strict param. Warning! This could change code behavior.
     finder:
         notPath:
+            - vendor
             - runtime
+            - web/assets
             - tests/unit/UnitTester.php
 
 codeception:
