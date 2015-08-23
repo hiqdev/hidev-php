@@ -5,7 +5,7 @@ hiqdev/hidev-config-php commits history
 
 - Added skip 'vendor' and 'web/assets' from fixing
     - 08d9d19 2015-08-23 + skip vendor and web/assets from fixing (sol@hiqdev.com)
-- Fixed minor: docs and php-cs-fixed
+- Fixed project description
     - f8e1ba9 2015-08-17 fixed project description (sol@hiqdev.com)
 
 ## 0.0.2 2015-08-17
