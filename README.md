@@ -10,6 +10,7 @@ All you need for PHP projects:
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-config-php/v/stable.png)](https://packagist.org/packages/hiqdev/hidev-config-php)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-config-php/downloads.png)](https://packagist.org/packages/hiqdev/hidev-config-php)
+[![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-config-php/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-config-php/dev-master)
 
 ## Installation
 
