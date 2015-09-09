@@ -50,8 +50,5 @@ codeception.yml:
         enable: true
 
 aliases:
-    t: test
-    g: default/grep
+    gen:    generate
 
-test:
-    sh: 'echo TEST'
