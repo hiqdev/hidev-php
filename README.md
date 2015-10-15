@@ -2,11 +2,10 @@ Hidev config for PHP projects
 -----------------------------
 
 All you need for PHP projects:
-- standart: LICENSE, README.md, CHANGELOG.md
+- standart: .gitignore, LICENSE, README.md, CHANGELOG.md
 - composer.json
 - php-cs-fixer
 - codeception
-
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-config-php/v/stable.png)](https://packagist.org/packages/hiqdev/hidev-config-php)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-config-php/downloads.png)](https://packagist.org/packages/hiqdev/hidev-config-php)
@@ -30,8 +29,9 @@ or add
 
 to the require section of your composer.json.
 
-## Licence
+## License
 
-[BSD-3-Clause](http://choosealicense.com/licenses/bsd-3-clause)
+This project is released under the terms of the BSD-3-Clause [license](https://github.com/hiqdev/hidev/blob/master/LICENSE).
+Read more [here](http://choosealicense.com/licenses/bsd-3-clause).
 
 Copyright © 2015, HiQDev (https://hiqdev.com/)

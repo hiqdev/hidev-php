@@ -1,7 +1,10 @@
 hiqdev/hidev-config-php changelog
 ---------------------------------
 
-## 0.0.5 Under development
+## Under development
+
+
+## 0.0.5 2015-10-15
 
 - Added README Installation section template
 
