@@ -3,6 +3,8 @@ hiqdev/hidev-config-php commits history
 
 ## 0.0.5 Under development
 
+- Added README Installation section template
+    - c6f95c5 2015-10-15 + readme Installation section template (sol@hiqdev.com)
 
 ## 0.0.4 2015-09-09
 
