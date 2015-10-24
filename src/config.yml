@@ -6,6 +6,12 @@ fix:
 test:
     deps: codeception
 
+readme:
+    badges:
+        packagist.stable:
+        packagist.downloads:
+        versioneye.dependencies:
+
 php-cs-fixer:
     level: symfony
     header: |
