@@ -4,6 +4,10 @@ hiqdev/hidev-config-php changelog
 ## Under development
 
 
+## 0.1.0 2015-10-15
+
+- Added README badges for Packagist and VersionEye
+
 ## 0.0.5 2015-10-15
 
 - Added README Installation section template
