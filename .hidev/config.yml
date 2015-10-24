@@ -14,5 +14,5 @@ package:
         - codeception
 
 require:
-    hiqdev/hidev-config:        "*@dev"
-    hiqdev/hidev-config-php:    "*@dev"
+    hiqdev/hidev-config:        "*"
+    hiqdev/hidev-config-php:    "*"

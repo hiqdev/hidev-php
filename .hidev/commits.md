@@ -3,6 +3,7 @@ hiqdev/hidev-config-php commits history
 
 ## Under development
 
+    - 8b470ab 2015-10-24 + readme badges (sol@hiqdev.com)
 
 ## 0.0.5 2015-10-15
 
