@@ -4,6 +4,10 @@ hiqdev/hidev-config-php changelog
 ## Under development
 
 
+## 0.1.1 2015-11-06
+
+- Changed PHP-CS-Fixer options: disabled `align_double_arrow`
+
 ## 0.1.0 2015-10-24
 
 - Added README badges for Packagist and VersionEye

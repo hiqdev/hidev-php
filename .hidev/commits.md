@@ -4,6 +4,11 @@ hiqdev/hidev-config-php commits history
 ## Under development
 
 
+## 0.1.1 2015-11-06
+
+- Changed PHP-CS-Fixer options: disabled `align_double_arrow`
+    - d92805e 2015-11-06 Disabled option `align_double_arrow` in PHP-CS-Fixer (d.naumenko.a@gmail.com)
+
 ## 0.1.0 2015-10-24
 
 - Added README badges for Packagist and VersionEye

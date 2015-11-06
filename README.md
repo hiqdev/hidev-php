@@ -1,5 +1,5 @@
 Hidev config for PHP projects
------------------------------
+=============================
 
 All you need for PHP projects:
 - standart: .gitignore, LICENSE, README.md, CHANGELOG.md
