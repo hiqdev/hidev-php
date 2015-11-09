@@ -7,6 +7,7 @@ hiqdev/hidev-config-php commits history
 ## 0.1.2 2015-11-06
 
 - Fixed php-cs-fixer config: dont touch aligning for equals and double arrows
+    - 8135ccf 2015-11-09 php-cs-fixed (sol@hiqdev.com)
     - 62d68e7 2015-11-09 + dont touch aligning for equals and double arrows (sol@hiqdev.com)
 
 ## 0.1.1 2015-11-06
