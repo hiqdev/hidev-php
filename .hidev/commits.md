@@ -3,6 +3,7 @@ hiqdev/hidev-config-php commits history
 
 ## Under development
 
+    - db0359e 2015-11-09 disabled empty_return fixer (sol@hiqdev.com)
 
 ## 0.1.2 2015-11-06
 
