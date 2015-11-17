@@ -1,5 +1,5 @@
-hiqdev/hidev-config-php changelog
----------------------------------
+hiqdev/hidev-php changelog
+--------------------------
 
 ## Under development
 
