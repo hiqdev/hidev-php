@@ -1,5 +1,5 @@
 {
-    "name": "hiqdev/hidev-config-php",
+    "name": "hiqdev/hidev-php",
     "type": "yii2-extension",
     "description": "Hidev config for PHP projects",
     "keywords": [
@@ -7,46 +7,38 @@
         "config",
         "php"
     ],
-    "homepage": "https://github.com/hiqdev/hidev-config-php",
+    "homepage": "https://github.com/hiqdev/hidev-php",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
-        "source": "https://github.com/hiqdev/hidev-config",
-        "issues": "https://github.com/hiqdev/hidev-config/issues",
-        "wiki": "https://github.com/hiqdev/hidev-config/wiki",
+        "source": "https://github.com/hiqdev/hidev-php",
+        "issues": "https://github.com/hiqdev/hidev-php/issues",
+        "wiki": "https://github.com/hiqdev/hidev-php/wiki",
         "forum": "http://forum.hiqdev.com/"
     },
     "authors": [
         {
-            "nick": "hiqsol",
             "name": "Andrii Vasyliev",
             "role": "Project lead",
             "email": "sol@hiqdev.com",
-            "github": "https://github.com/hiqsol",
             "homepage": "http://hipanel.com/"
         },
         {
-            "nick": "SilverFire",
             "name": "Dmitry Naumenko",
             "role": "Lead backend developer",
             "email": "silverfire@hiqdev.com",
-            "github": "https://github.com/SilverFire",
             "homepage": "http://silverfire.me/"
         },
         {
-            "nick": "tafid",
             "name": "Andrey Klochok",
             "role": "Lead frontend developer",
             "email": "tafid@hiqdev.com",
-            "github": "https://github.com/tafid",
             "homepage": "http://hiqdev.com/"
         },
         {
-            "nick": "BladeRoot",
             "name": "Yuriy Myronchuk",
             "role": "QA Lead",
             "email": "bladeroot@hiqdev.com",
-            "github": "https://github.com/BladeRoot",
             "homepage": "http://hiqdev.com/"
         }
     ],
@@ -56,7 +48,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\hidev\\config\\php\\": "src"
+            "hidev\\php\\": "src"
         }
     }
 }
