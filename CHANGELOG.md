@@ -3,6 +3,7 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+- Changed: redone to `hidev-php`
 
 ## 0.1.2 2015-11-06
 
