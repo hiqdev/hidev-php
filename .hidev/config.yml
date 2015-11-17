@@ -1,18 +1,23 @@
 package:
-    name:           hidev-config-php
-    namespace:      hiqdev\hidev\config\php
-    label:          HiDevConfigPHP
-    title:          Hidev config for PHP projects
+    name:           hidev-php
+    namespace:      hidev\php
+    label:          HiDev PHP
+    title:          HiDev config for PHP projects
     type:           yii2-extension
     keywords:       hidev, config, php
     year:           2015
     description:    |
-        All you need for PHP projects:
+        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+        This plugin provides basic HiDev configuration for PHP projects.
+
+        Provides:
         - standart: .gitignore, LICENSE, README.md, CHANGELOG.md
         - composer.json
         - php-cs-fixer
         - codeception
+        - to be done: Travis CI
+        - to be done: Scrutinizer
 
 require:
-    hiqdev/hidev-config:        "*"
-    hiqdev/hidev-config-php:    "*"
+    hiqdev/hidev-hiqdev:    "*@dev"
+    hiqdev/hidev-php:       "*@dev"
