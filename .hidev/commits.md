@@ -7,6 +7,7 @@ hiqdev/hidev-php commits history
 ## 0.1.3 2015-11-18
 
 - Fixed php-cs-fixer settings: disabled `return`, `empty_return` and `phpdoc_no_empty_return` fixers
+    - d34b52b 2015-11-18 php-cs-fixed (sol@hiqdev.com)
     - 3394aed 2015-11-18 php-cs-fixed (sol@hiqdev.com)
     - 4c5704b 2015-11-18 + disabled `phpdoc_no_empty_return` and `return` fixers (sol@hiqdev.com)
     - db0359e 2015-11-09 disabled `empty_return` fixer (sol@hiqdev.com)
