@@ -1,5 +1,7 @@
-HiDev config for PHP projects
-=============================
+HiDev PHP
+=========
+
+**HiDev config for PHP projects**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-php/v/stable)](//packagist.org/packages/hiqdev/hidev-php)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-php/downloads)](//packagist.org/packages/hiqdev/hidev-php)
@@ -11,10 +13,10 @@ This plugin provides basic HiDev configuration for PHP projects.
 Provides:
 - standart: .gitignore, LICENSE, README.md, CHANGELOG.md
 - composer.json
-- php-cs-fixer
-- codeception
-- to be done: Travis CI
-- to be done: Scrutinizer
+- PHP-CS-Fixer
+- Codeception
+- Travis CI (in progress)
+- Scrutinizer (in progress)
 
 ## Installation
 
