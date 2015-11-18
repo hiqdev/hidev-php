@@ -3,6 +3,9 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+
+## 0.1.3 2015-11-18
+
 - Fixed php-cs-fixer settings: disabled `return`, `empty_return` and `phpdoc_no_empty_return` fixers
 - Changed: redone to `hidev-php`
 
@@ -28,13 +31,13 @@ hiqdev/hidev-php changelog
 
 ## 0.0.3 2015-08-23
 
-- Added skip 'vendor' and 'web/assets' from fixing
+- Added skip `vendor` and `web/assets` from fixing
 - Fixed project description
 
 ## 0.0.2 2015-08-17
 
 - Changed to be usable for any vendor
-- Fixed dependencies for 'all' goal
+- Fixed dependencies for `all` goal
 
 ## 0.0.1 2015-07-11
 
