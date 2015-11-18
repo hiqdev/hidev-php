@@ -7,7 +7,7 @@ hiqdev/hidev-php commits history
     - 8761f1c 2015-11-17 hideved (sol@hiqdev.com)
     - 415c189 2015-11-17 fixed namespace (sol@hiqdev.com)
     - d2de6a4 2015-11-17 redoing to `hidev-php` (sol@hiqdev.com)
-    - db0359e 2015-11-09 disabled empty_return fixer (sol@hiqdev.com)
+    - db0359e 2015-11-09 disabled `empty_return` fixer (sol@hiqdev.com)
 
 ## 0.1.2 2015-11-06
 
@@ -49,7 +49,7 @@ hiqdev/hidev-php commits history
     - 270433d 2015-08-17 making this extension generally usable (sol@hiqdev.com)
     - 3db083a 2015-08-17 * README (sol@hiqdev.com)
 - Fixed dependencies for 'all' goal
-    - df50f43 2015-07-20 * all goal deps: - .php_cs, git (sol@hiqdev.com)
+    - df50f43 2015-07-20 * all goal deps: - `.php_cs`, git (sol@hiqdev.com)
     - 7323c43 2015-07-17 php-cs-fixed (sol@hiqdev.com)
     - c83d6cb 2015-07-17 regenerated .gitignore (sol@hiqdev.com)
     - b1fdf38 2015-07-17 * deps: git moved to be last (sol@hiqdev.com)
