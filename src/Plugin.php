@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Hidev config for PHP projects
+ * HiDev config for PHP projects
  *
  * @link      https://github.com/hiqdev/hidev-php
  * @package   hidev-php

@@ -1,10 +1,10 @@
 <?php
 
 $header = <<<EOF
-Hidev config for PHP projects
+HiDev config for PHP projects
 
-@link      https://github.com/hiqdev/hidev-config-php
-@package   hidev-config-php
+@link      https://github.com/hiqdev/hidev-php
+@package   hidev-php
 @license   BSD-3-Clause
 @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
 EOF;
@@ -12,6 +12,7 @@ EOF;
 Symfony\CS\Fixer\Contrib\HeaderCommentFixer::setHeader($header);
 
 return Symfony\CS\Config\Config::create()
+    ->setUsingCache(true)
     ->level(Symfony\CS\FixerInterface::SYMFONY_LEVEL)
     ->fixers([
         '-long_array_syntax',                    /// Arrays should use the long syntax.
@@ -22,6 +23,7 @@ return Symfony\CS\Config\Config::create()
         '-align_equals',                         /// Align equals symbols in consecutive lines.
         '-unalign_equals',                       /// Unalign equals symbols in consecutive lines.
         '-blankline_after_open_tag',             /// Ensure there is no code on the same line as the PHP open tag and it is followed by a blankline.
+        '-empty_return',                         /// A return statement wishing to return nothing should be simply "return".
         'header_comment',                        /// Add, replace or remove header comment.
         'concat_with_spaces',                    /// Concatenation should be used with at least one whitespace around.
         'ereg_to_preg',                          /// Replace deprecated ereg regular expression functions with preg. Warning! This could change code behavior.
