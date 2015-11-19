@@ -1,6 +1,6 @@
 deps: all
 all:
-    deps: composer, LICENSE, README.md, CHANGELOG.md
+    deps: composer, LICENSE, README.md, CHANGELOG.md, .travis.yml
 fix:
     deps: php-cs-fixer
 test:
@@ -61,6 +61,16 @@ codeception.yml:
     coverage:
         enable: true
 
-aliases:
-    gen:    generate
+.travis.yml:
+    language: php
+
+    php:
+        - 5.5
+        - 5.6
+        - 7
+        - hhvm
+
+    cache:
+        directories:
+            - $HOME/.composer/cache
 

@@ -43,9 +43,9 @@
         }
     ],
     "require": {
-        "hiqdev/hidev-php-cs-fixer": "*@dev",
-        "hiqdev/hidev-codeception": "*@dev",
-        "hiqdev/hidev-travis-ci": "*@dev"
+        "hiqdev/hidev-php-cs-fixer": "*",
+        "hiqdev/hidev-codeception": "*",
+        "hiqdev/hidev-travis-ci": "*"
     },
     "autoload": {
         "psr-4": {
