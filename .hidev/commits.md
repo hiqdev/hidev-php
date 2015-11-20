@@ -3,6 +3,7 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+    - facad43 2015-11-19 + php 5.4 for travis (sol@hiqdev.com)
 - Added Travis CI integration
     - ab4f350 2015-11-19 adding Travis CI (sol@hiqdev.com)
     - 3ac63e5 2015-11-18 + hidev-travis-ci (sol@hiqdev.com)
