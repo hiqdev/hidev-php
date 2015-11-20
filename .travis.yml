@@ -10,8 +10,8 @@ cache:
         - $HOME/.composer/cache
 sudo: false
 install:
-    - 'travis_retry composer self-update'
-    - 'travis_retry composer global require "fxp/composer-asset-plugin:~1.1" "yiisoft/yii2-composer:~2.0" "hiqdev/hidev:*@dev"'
+    - 'travis_retry composer global require "fxp/composer-asset-plugin:~1.1" "yiisoft/yii2-composer:~2.0"'
+    - 'travis_retry composer global require "hiqdev/hidev:*@dev"'
     - 'travis_retry composer install --no-interaction'
     - '$HOME/.composer/vendor/bin/hidev travis/install'
 script:
