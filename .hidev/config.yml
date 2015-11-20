@@ -1,9 +1,9 @@
 package:
+    type:           yii2-extension
     name:           hidev-php
     namespace:      hidev\php
     headline:       HiDev PHP
     title:          HiDev config for PHP projects
-    type:           yii2-extension
     keywords:       hidev, config, php
     year:           2015
     description:    |
