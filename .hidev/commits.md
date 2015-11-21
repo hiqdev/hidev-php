@@ -3,6 +3,7 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+    - 908e485 2015-11-20 + allow travis failures for php 7 and hhvm (sol@hiqdev.com)
     - c2127af 2015-11-20 trying travis (sol@hiqdev.com)
     - facad43 2015-11-19 + php 5.4 for travis (sol@hiqdev.com)
 - Added Travis CI integration
