@@ -3,6 +3,8 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+- Changed default test system to phpunit and added `build` goal
+    - 0e00e9e 2015-11-23 changed default test system to phpunit and added `build` goal (sol@hiqdev.com)
 - Added very basic testing
     - 4bfdb84 2015-11-23 + test (sol@hiqdev.com)
 - Added PHPUnit integration
