@@ -47,6 +47,11 @@
         "hiqdev/hidev-codeception": "*",
         "hiqdev/hidev-travis-ci": "*"
     },
+    "require-dev": {
+        "hiqdev/php-collection": "*@dev",
+        "hiqdev/yii2-collection": "*@dev",
+        "hiqdev/yii2-pluginmanager": "*@dev"
+    },
     "autoload": {
         "psr-4": {
             "hidev\\php\\": "src"
