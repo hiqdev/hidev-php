@@ -4,7 +4,9 @@ all:
 fix:
     deps: php-cs-fixer
 test:
-    deps: codeception
+    deps: phpunit
+build:
+    deps: fix, test
 
 readme:
     badges:
