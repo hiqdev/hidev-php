@@ -3,6 +3,7 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+- Added PHPUnit integration
 - Added Travis CI integration
 
 ## 0.1.3 2015-11-18

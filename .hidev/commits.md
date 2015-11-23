@@ -3,6 +3,8 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+- Added PHPUnit integration
+    - ec0b291 2015-11-23 + requires (sol@hiqdev.com)
     - 56d3d35 2015-11-23 + package require-devs (sol@hiqdev.com)
 - Added Travis CI integration
     - a350ac8 2015-11-21 doing travis (sol@hiqdev.com)
