@@ -3,6 +3,8 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+- Added very basic testing
+    - 4bfdb84 2015-11-23 + test (sol@hiqdev.com)
 - Added PHPUnit integration
     - ec0b291 2015-11-23 + requires (sol@hiqdev.com)
     - 56d3d35 2015-11-23 + package require-devs (sol@hiqdev.com)
