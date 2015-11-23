@@ -3,6 +3,7 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+    - 56d3d35 2015-11-23 + package require-devs (sol@hiqdev.com)
 - Added Travis CI integration
     - a350ac8 2015-11-21 doing travis (sol@hiqdev.com)
     - 908e485 2015-11-20 + allow travis failures for php 7 and hhvm (sol@hiqdev.com)

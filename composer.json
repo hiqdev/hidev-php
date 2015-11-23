@@ -45,7 +45,9 @@
     "require": {
         "hiqdev/hidev-php-cs-fixer": "*",
         "hiqdev/hidev-codeception": "*",
-        "hiqdev/hidev-travis-ci": "*"
+        "hiqdev/hidev-travis-ci": "*",
+        "hiqdev/hidev-license": "*",
+        "hiqdev/hidev-phpunit": "*"
     },
     "require-dev": {
         "hiqdev/php-collection": "*@dev",
