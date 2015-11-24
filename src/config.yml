@@ -12,6 +12,7 @@ readme:
     badges:
         packagist.stable:
         packagist.downloads:
+        travisci.build:
         versioneye.dependencies:
 
 php-cs-fixer:
