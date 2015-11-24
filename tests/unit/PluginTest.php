@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * HiDev config for PHP projects
+ *
+ * @link      https://github.com/hiqdev/hidev-php
+ * @package   hidev-php
+ * @license   BSD-3-Clause
+ * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
+ */
+
 namespace hidev\php\tests\unit;
 
 use hidev\php\Plugin;
@@ -20,7 +29,7 @@ class PluginTest extends \PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $this->object = new Plugin;
+        $this->object = new Plugin();
     }
 
     /**
