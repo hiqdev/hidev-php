@@ -3,6 +3,14 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+- Added Travis CI integration
+    - dd13a9a 2015-11-24 + Travis CI badge (sol@hiqdev.com)
+    - a350ac8 2015-11-21 doing travis (sol@hiqdev.com)
+    - 908e485 2015-11-20 + allow travis failures for php 7 and hhvm (sol@hiqdev.com)
+    - c2127af 2015-11-20 trying travis (sol@hiqdev.com)
+    - facad43 2015-11-19 + php 5.4 for travis (sol@hiqdev.com)
+    - ab4f350 2015-11-19 adding Travis CI (sol@hiqdev.com)
+    - 3ac63e5 2015-11-18 + hidev-travis-ci (sol@hiqdev.com)
 - Changed default test system to phpunit and added `build` goal
     - 0e00e9e 2015-11-23 changed default test system to phpunit and added `build` goal (sol@hiqdev.com)
 - Added very basic testing
@@ -10,13 +18,6 @@ hiqdev/hidev-php commits history
 - Added PHPUnit integration
     - ec0b291 2015-11-23 + requires (sol@hiqdev.com)
     - 56d3d35 2015-11-23 + package require-devs (sol@hiqdev.com)
-- Added Travis CI integration
-    - a350ac8 2015-11-21 doing travis (sol@hiqdev.com)
-    - 908e485 2015-11-20 + allow travis failures for php 7 and hhvm (sol@hiqdev.com)
-    - c2127af 2015-11-20 trying travis (sol@hiqdev.com)
-    - facad43 2015-11-19 + php 5.4 for travis (sol@hiqdev.com)
-    - ab4f350 2015-11-19 adding Travis CI (sol@hiqdev.com)
-    - 3ac63e5 2015-11-18 + hidev-travis-ci (sol@hiqdev.com)
 
 ## 0.1.3 2015-11-18
 
