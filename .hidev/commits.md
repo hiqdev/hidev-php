@@ -3,6 +3,8 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+- Fixed minor issues
+    - d755bfc 2015-11-24 fixed require-dev (sol@hiqdev.com)
 
 ## 0.1.4 2015-11-24
 
