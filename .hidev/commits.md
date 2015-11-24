@@ -3,6 +3,9 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+
+## 0.1.4 2015-11-24
+
 - Added Travis CI integration
     - dd13a9a 2015-11-24 + Travis CI badge (sol@hiqdev.com)
     - a350ac8 2015-11-21 doing travis (sol@hiqdev.com)

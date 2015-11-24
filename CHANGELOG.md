@@ -3,6 +3,9 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+
+## 0.1.4 2015-11-24
+
 - Added Travis CI integration
 - Changed default test system to phpunit and added `build` goal
 - Added very basic testing
