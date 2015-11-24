@@ -50,9 +50,7 @@
         "hiqdev/hidev-phpunit": "*"
     },
     "require-dev": {
-        "hiqdev/php-collection": "*@dev",
-        "hiqdev/yii2-collection": "*@dev",
-        "hiqdev/yii2-pluginmanager": "*@dev"
+        "hiqdev/yii2-collection": "*"
     },
     "autoload": {
         "psr-4": {
