@@ -3,6 +3,8 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+    - f59a1e8 2015-11-26 + phpunit coverage (sol@hiqdev.com)
+    - 743d1af 2015-11-26 removed unused templates (sol@hiqdev.com)
 - Fixed minor issues
     - d755bfc 2015-11-24 fixed require-dev (sol@hiqdev.com)
 

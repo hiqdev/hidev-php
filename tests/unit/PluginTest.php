@@ -43,5 +43,6 @@ class PluginTest extends \PHPUnit_Framework_TestCase
     public function testConstructor()
     {
         $this->assertTrue(is_object($this->object));
+        $this->assertArrayHasKey('views', $this->object->getItems());
     }
 }
