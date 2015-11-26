@@ -3,7 +3,10 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
-- Fixed minor issues
+
+## 0.1.5 2015-11-26
+
+- Added tests and coverage
 
 ## 0.1.4 2015-11-24
 
