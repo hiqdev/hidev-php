@@ -55,6 +55,13 @@ php-cs-fixer:
             - web/assets
             - tests/unit/UnitTester.php
 
+phpunit:
+    coverageText:   true
+    coverageClover: true
+
+vcsignore:
+    coverage.clover: phpunit generated files
+
 codeception:
     deps:
         - generate/mkdir tests
