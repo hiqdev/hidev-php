@@ -4,6 +4,7 @@ hiqdev/hidev-php commits history
 ## Under development
 
 - Fixed tests
+    - c6064a5 2015-12-14 fixed tests: + require-dev yii2-pluginmanager (sol@hiqdev.com)
     - 09edc3d 2015-12-14 fixed tests (sol@hiqdev.com)
 
 ## 0.1.6 2015-12-14
