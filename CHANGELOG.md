@@ -3,6 +3,7 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+- Fixed tests
 
 ## 0.1.6 2015-12-14
 
