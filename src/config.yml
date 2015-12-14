@@ -75,7 +75,6 @@ codeception.yml:
     language: php
 
     php:
-        - 5.4
         - 5.5
         - 5.6
         - 7
@@ -83,7 +82,6 @@ codeception.yml:
 
     matrix:
         allow_failures:
-            - php: 7
             - php: hhvm
 
     cache:
