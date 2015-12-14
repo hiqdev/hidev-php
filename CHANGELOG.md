@@ -3,6 +3,9 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+
+## 0.1.6 2015-12-14
+
 - Changed Travis build: dont build 5.4 and dont allow failure 7
 
 ## 0.1.5 2015-11-26

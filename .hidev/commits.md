@@ -3,6 +3,9 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+
+## 0.1.6 2015-12-14
+
 - Changed Travis build: dont build 5.4 and dont allow failure 7
     - ebd2f47 2015-12-14 changed Travis build: dont build 5.4 and dont allow failur 7 (sol@hiqdev.com)
 
