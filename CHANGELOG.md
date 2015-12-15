@@ -3,6 +3,10 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+
+## 0.1.7 2015-12-15
+
+- Fixed phpdoc options for php-cs-fixer
 - Fixed tests
 
 ## 0.1.6 2015-12-14

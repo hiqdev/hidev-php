@@ -3,6 +3,11 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+
+## 0.1.7 2015-12-15
+
+- Fixed phpdoc options for php-cs-fixer
+    - c48f34c 2015-12-15 fixed phpdoc options for php-cs-fixer (sol@hiqdev.com)
 - Fixed tests
     - c6064a5 2015-12-14 fixed tests: + require-dev yii2-pluginmanager (sol@hiqdev.com)
     - 09edc3d 2015-12-14 fixed tests (sol@hiqdev.com)
