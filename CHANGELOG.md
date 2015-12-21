@@ -3,6 +3,7 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+- Changed php-cs-fixer config to level psr2 only, else moved to `hiqdev/hidev-vendor`
 
 ## 0.1.7 2015-12-15
 
