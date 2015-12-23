@@ -4,6 +4,10 @@ hiqdev/hidev-php changelog
 ## Under development
 
 
+## 0.2.1 2015-12-23
+
+- Added Travis `after_script` upload coverage to Scrutinizer
+
 ## 0.2.0 2015-12-23
 
 - Added Scrutinizer badges

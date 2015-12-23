@@ -4,6 +4,11 @@ hiqdev/hidev-php commits history
 ## Under development
 
 
+## 0.2.1 2015-12-23
+
+- Added Travis `after_script` upload coverage to Scrutinizer
+    - fe2e321 2015-12-23 + travis `after_script` upload coverage to scrutinizer (sol@hiqdev.com)
+
 ## 0.2.0 2015-12-23
 
 - Added Scrutinizer badges
