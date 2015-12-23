@@ -54,3 +54,6 @@ codeception.yml:
         directories:
             - $HOME/.composer/cache
 
+travis:
+    after_script:
+        coverage: scrutinizer/upload-coverage
