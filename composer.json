@@ -52,15 +52,14 @@
         "hiqdev/hidev-php-cs-fixer": "*"
     },
     "require-dev": {
+        "hiqdev/hidev": "*@dev",
         "hiqdev/hidev-readme": "*@dev",
         "hiqdev/hidev-license": "*@dev",
         "hiqdev/hidev-phpunit": "*@dev",
         "hiqdev/hidev-composer": "*@dev",
         "hiqdev/hidev-travis-ci": "*@dev",
         "hiqdev/hidev-scrutinizer": "*@dev",
-        "hiqdev/hidev-php-cs-fixer": "*@dev",
-        "hiqdev/hidev": "*@dev",
-        "hiqdev/yii2-pluginmanager": "*"
+        "hiqdev/hidev-php-cs-fixer": "*@dev"
     },
     "autoload": {
         "psr-4": {
