@@ -4,6 +4,7 @@ hiqdev/hidev-php commits history
 ## Under development
 
 - Changed php-cs-fixer config to level psr2 only, else moved to `hiqdev/hidev-vendor`
+    - a280d34 2015-12-23 fixing build (sol@hiqdev.com)
     - a26c8d9 2015-12-21 changed php-cs-fixer config to level psr2 only, else moved to (sol@hiqdev.com)
 
 ## 0.1.7 2015-12-15
