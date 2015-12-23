@@ -15,9 +15,9 @@ Provides:
 - standart: .gitignore, LICENSE, README.md, CHANGELOG.md
 - composer.json
 - PHP-CS-Fixer
-- Codeception
-- Travis CI (in progress)
-- Scrutinizer (in progress)
+- PHPUnit
+- Travis CI
+- Scrutinizer
 
 ## Installation
 

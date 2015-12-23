@@ -19,6 +19,7 @@ php-cs-fixer:
     level: psr2
 
 phpunit:
+    colors:         always
     coverageText:   true
     coverageClover: true
 

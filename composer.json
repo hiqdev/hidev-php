@@ -43,13 +43,23 @@
         }
     ],
     "require": {
-        "hiqdev/hidev-php-cs-fixer": "*",
-        "hiqdev/hidev-codeception": "*",
-        "hiqdev/hidev-travis-ci": "*",
+        "hiqdev/hidev-readme": "*",
         "hiqdev/hidev-license": "*",
-        "hiqdev/hidev-phpunit": "*"
+        "hiqdev/hidev-phpunit": "*",
+        "hiqdev/hidev-composer": "*",
+        "hiqdev/hidev-travis-ci": "*",
+        "hiqdev/hidev-scrutinizer": "*",
+        "hiqdev/hidev-php-cs-fixer": "*"
     },
     "require-dev": {
+        "hiqdev/hidev-readme": "*@dev",
+        "hiqdev/hidev-license": "*@dev",
+        "hiqdev/hidev-phpunit": "*@dev",
+        "hiqdev/hidev-composer": "*@dev",
+        "hiqdev/hidev-travis-ci": "*@dev",
+        "hiqdev/hidev-scrutinizer": "*@dev",
+        "hiqdev/hidev-php-cs-fixer": "*@dev",
+        "hiqdev/hidev": "*@dev",
         "hiqdev/yii2-pluginmanager": "*"
     },
     "autoload": {
