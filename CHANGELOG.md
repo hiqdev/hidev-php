@@ -3,6 +3,9 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+
+## 0.2.0 2015-12-23
+
 - Added Scrutinizer badges
 - Changed php-cs-fixer config to level psr2 only, else moved to `hiqdev/hidev-vendor`
 

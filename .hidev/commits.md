@@ -3,7 +3,11 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+
+## 0.2.0 2015-12-23
+
 - Added Scrutinizer badges
+    - 0a87572 2015-12-23 fixed composer requires (sol@hiqdev.com)
     - 50d6178 2015-12-23 + scrutinizer badges (sol@hiqdev.com)
 - Changed php-cs-fixer config to level psr2 only, else moved to `hiqdev/hidev-vendor`
     - a280d34 2015-12-23 fixing build (sol@hiqdev.com)
