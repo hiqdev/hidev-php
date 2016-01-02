@@ -57,3 +57,14 @@ codeception.yml:
 travis:
     after_script:
         coverage: scrutinizer/upload-coverage
+
+.scrutinizer.yml:
+    checks:
+        php:
+            code_rating: true
+            duplication: true
+    tools:
+        php_code_coverage:
+            enabled: true
+        external_code_coverage:
+            timeout: 600
