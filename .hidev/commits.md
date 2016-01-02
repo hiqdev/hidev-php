@@ -3,6 +3,7 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+    - 6f3de9d 2016-01-02 + scrutinizer configuration (sol@hiqdev.com)
 
 ## 0.2.1 2015-12-23
 
