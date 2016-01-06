@@ -11,11 +11,13 @@
 
 return [
     'components' => [
-        'configs' => [
-            '@hidev/php/config.yml',
-        ],
-        'views' => [
-            '@hidev/php/views',
+        'config' => [
+            'include' => [
+                '@hidev/php/config.yml',
+            ],
+            'views' => [
+                '@hidev/php/views',
+            ],
         ],
     ],
 ];
