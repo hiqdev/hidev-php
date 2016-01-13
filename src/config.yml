@@ -1,18 +1,26 @@
-deps: all
-all:
-    deps: composer, LICENSE, README.md, CHANGELOG.md, .travis.yml, .scrutinizer.yml
+default:
+    before:
+        - composer
+        - LICENSE
+        - README.md
+        - CHANGELOG.md
+        - .travis.yml
+other:
+        - .scrutinizer.yml
 fix:
-    deps: php-cs-fixer
+    before: php-cs-fixer
 test:
-    deps: phpunit
+    before: phpunit
 build:
-    deps: fix, test
+    before:
+        - fix
+        - test
 
 readme:
     badges:
         packagist.stable:
         packagist.downloads:
-        travis-ci.build:
+        travis.build:
         scrutinizer.coverage:
         scrutinizer.quality:
         versioneye.dependencies:
@@ -29,7 +37,7 @@ vcsignore:
     coverage.clover: phpunit generated files
 
 codeception:
-    deps:
+    before:
         - generate/mkdir tests
         - generate/once  tests/_bootstrap
 
