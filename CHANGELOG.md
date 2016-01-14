@@ -3,6 +3,9 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+- Changed hidev-travis-ci -> hidev-travis
+- Changed deps -> before
+- Changed: redone with yii2-extraconfig
 
 ## 0.2.1 2015-12-23
 

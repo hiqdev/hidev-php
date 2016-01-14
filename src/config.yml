@@ -5,7 +5,6 @@ default:
         - README.md
         - CHANGELOG.md
         - .travis.yml
-other:
         - .scrutinizer.yml
 fix:
     before: php-cs-fixer

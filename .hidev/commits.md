@@ -3,6 +3,15 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+- Changed hidev-travis-ci -> hidev-travis
+    - bf578ac 2016-01-14 changed hidev-travis-ci -> hidev-travis (sol@hiqdev.com)
+    - 1e5c5ca 2016-01-13 Changed hidev-travis-ci -> hidev-travis (sol@hiqdev.com)
+- Changed deps -> before
+    - 52f1556 2016-01-13 Changed deps -> before (sol@hiqdev.com)
+- Changed: redone with yii2-extraconfig
+    - 34b6a14 2016-01-14 removed Plugin.php in favour of yii2-extraconfig (sol@hiqdev.com)
+    - 95b45b2 2016-01-06 changed config structure (sol@hiqdev.com)
+    - dadf5b1 2016-01-06 redoing with yii2-extraconfig (sol@hiqdev.com)
     - 6f3de9d 2016-01-02 + scrutinizer configuration (sol@hiqdev.com)
 
 ## 0.2.1 2015-12-23
