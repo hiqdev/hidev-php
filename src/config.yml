@@ -55,24 +55,21 @@ codeception.yml:
 
 .travis.yml:
     language: php
-
     php:
         - 5.5
         - 5.6
         - 7
         - hhvm
-
     matrix:
         allow_failures:
             - php: hhvm
-
     cache:
         directories:
             - $HOME/.composer/cache
+    before_install:
+        - composer self-update
 
 travis:
-    before_install:
-        - composer/self-update
     after_script:
         - scrutinizer/upload-coverage
 
