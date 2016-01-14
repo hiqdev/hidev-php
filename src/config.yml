@@ -71,8 +71,10 @@ codeception.yml:
             - $HOME/.composer/cache
 
 travis:
+    before_install:
+        - composer/self-update
     after_script:
-        coverage: scrutinizer/upload-coverage
+        - scrutinizer/upload-coverage
 
 .scrutinizer.yml:
     checks:
