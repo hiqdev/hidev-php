@@ -3,7 +3,8 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
-- Added `install` and `update` goals
+- Added `composer/self-update` on travis `before_install`
+- Added general `install` and `update` goals
 - Changed hidev-travis-ci -> hidev-travis
 - Changed deps -> before
 - Changed: redone with yii2-extraconfig
