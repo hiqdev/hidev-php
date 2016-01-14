@@ -1,15 +1,24 @@
 default:
     before:
-        - composer
+        - composer.json
         - LICENSE
         - README.md
         - CHANGELOG.md
         - .travis.yml
         - .scrutinizer.yml
+install:
+    before:
+        - composer/install
+update:
+    before:
+        - start/update
+        - composer/update
 fix:
     before: php-cs-fixer
 test:
-    before: phpunit
+    before:
+        - install
+        - phpunit
 build:
     before:
         - fix
