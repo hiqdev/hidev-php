@@ -3,8 +3,9 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
-- Added `composer/self-update` on travis `before_install`
-    - fe1ae73 2016-01-14 + travis composer/self-update on before_install (sol@hiqdev.com)
+- Added composer self-update on travis `before_install`
+    - 0d05e26 2016-01-14 fixed travis `before_install` composer self-update (sol@hiqdev.com)
+    - fe1ae73 2016-01-14 + travis composer/self-update on `before_install` (sol@hiqdev.com)
 - Added general `install` and `update` goals
     - a23d9ec 2016-01-14 + install and update goals (sol@hiqdev.com)
 - Changed hidev-travis-ci -> hidev-travis
