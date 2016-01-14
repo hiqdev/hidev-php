@@ -3,6 +3,8 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+- Added `install` and `update` goals
+    - a23d9ec 2016-01-14 + install and update goals (sol@hiqdev.com)
 - Changed hidev-travis-ci -> hidev-travis
     - bf578ac 2016-01-14 changed hidev-travis-ci -> hidev-travis (sol@hiqdev.com)
     - 1e5c5ca 2016-01-13 Changed hidev-travis-ci -> hidev-travis (sol@hiqdev.com)
