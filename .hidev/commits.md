@@ -3,6 +3,8 @@ hiqdev/hidev-php commits history
 
 ## Under development
 
+- Fixed tests
+    - 23e67d0 2016-01-15 fixed tests (sol@hiqdev.com)
 - Added composer self-update on travis `before_install`
     - 0d05e26 2016-01-14 fixed travis `before_install` composer self-update (sol@hiqdev.com)
     - fe1ae73 2016-01-14 + travis composer/self-update on `before_install` (sol@hiqdev.com)

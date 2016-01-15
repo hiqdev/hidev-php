@@ -3,6 +3,7 @@ hiqdev/hidev-php changelog
 
 ## Under development
 
+- Fixed tests
 - Added composer self-update on travis `before_install`
 - Added general `install` and `update` goals
 - Changed hidev-travis-ci -> hidev-travis

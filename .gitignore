@@ -24,3 +24,7 @@ composer.lock
 
 # phpunit generated files
 coverage.clover
+
+# PHARs
+php-cs-fixer.phar
+phpunit.phar
