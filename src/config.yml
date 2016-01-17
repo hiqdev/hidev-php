@@ -68,6 +68,7 @@ codeception.yml:
             - $HOME/.composer/cache
     before_install:
         - composer self-update
+        - composer --version
 
 travis:
     after_script:
