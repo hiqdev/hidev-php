@@ -1,7 +1,7 @@
 hiqdev/hidev-php commits history
 --------------------------------
 
-## Under development
+## 0.3.1 2016-01-17
 
 - Added `composer --version` after composer self-update on travis `before_install`
     - 587fb8f 2016-01-17 + `composer --version` after composer self-update on travis `before_install` (sol@hiqdev.com)
