@@ -18,8 +18,7 @@ Provides:
 - composer.json
 - PHP-CS-Fixer
 - PHPUnit
-- Travis CI
-- Scrutinizer
+- CI: Travis & Scrutinizer
 
 ## Installation
 

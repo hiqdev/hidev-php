@@ -5,7 +5,6 @@ package:
     headline:       HiDev PHP
     title:          HiDev config for PHP projects
     keywords:       hidev, config, php
-    year:           2015
     description:    |
         [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
         This plugin provides basic HiDev configuration for PHP projects.
@@ -15,8 +14,7 @@ package:
         - composer.json
         - PHP-CS-Fixer
         - PHPUnit
-        - Travis CI
-        - Scrutinizer
+        - CI: Travis & Scrutinizer
 
 include:
     - src/config.yml
