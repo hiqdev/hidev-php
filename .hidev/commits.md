@@ -1,6 +1,10 @@
 hiqdev/hidev-php commits history
 --------------------------------
 
+## 0.3.2 2016-03-30
+
+    - 9f28ac4 2016-03-30 redoing to `extension-config` <- `yii2-extraconfig` (sol@hiqdev.com)
+
 ## 0.3.1 2016-01-17
 
 - Added `composer --version` after composer self-update on travis `before_install`

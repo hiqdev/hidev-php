@@ -6,8 +6,8 @@ HiDev PHP
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-php/v/stable)](https://packagist.org/packages/hiqdev/hidev-php)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-php/downloads)](https://packagist.org/packages/hiqdev/hidev-php)
 [![Build Status](https://img.shields.io/travis/hiqdev/hidev-php.svg)](https://travis-ci.org/hiqdev/hidev-php)
-[![Code Coverage](https://scrutinizer-ci.com/g/hiqdev/hidev-php/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-php/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hiqdev/hidev-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-php/?branch=master)
+[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hidev-php.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-php/)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-php.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-php/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-php/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-php/dev-master)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
