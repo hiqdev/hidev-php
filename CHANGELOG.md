@@ -1,6 +1,10 @@
 hiqdev/hidev-php changelog
 --------------------------
 
+## 0.3.3 2016-04-13
+
+- Changed to `hidev-config` <- `extension-config`
+
 ## 0.3.2 2016-03-30
 
 

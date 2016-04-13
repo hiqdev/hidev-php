@@ -1,6 +1,11 @@
 hiqdev/hidev-php commits history
 --------------------------------
 
+## 0.3.3 2016-04-13
+
+- Changed to `hidev-config` <- `extension-config`
+    - 34db12d 2016-04-13 redone to `hidev-config` <- `extension-config` (sol@hiqdev.com)
+
 ## 0.3.2 2016-03-30
 
     - 9f28ac4 2016-03-30 redoing to `extension-config` <- `yii2-extraconfig` (sol@hiqdev.com)
