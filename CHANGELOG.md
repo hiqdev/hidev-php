@@ -1,6 +1,10 @@
 hiqdev/hidev-php changelog
 --------------------------
 
+## 0.3.4 2016-04-13
+
+- Fixed build with asset-packagist
+
 ## 0.3.3 2016-04-13
 
 - Changed to `hidev-config` <- `extension-config`

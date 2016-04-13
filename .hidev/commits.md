@@ -1,6 +1,11 @@
 hiqdev/hidev-php commits history
 --------------------------------
 
+## 0.3.4 2016-04-13
+
+- Fixed build with asset-packagist
+    - a141253 2016-04-13 fixed build with asset-packagist (sol@hiqdev.com)
+
 ## 0.3.3 2016-04-13
 
 - Changed to `hidev-config` <- `extension-config`
