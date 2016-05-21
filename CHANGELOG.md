@@ -1,6 +1,11 @@
 hiqdev/hidev-php changelog
 --------------------------
 
+## 0.4.0 2016-05-21
+
+- Changed: redone to `composer-config-plugin`
+- Removed `CHANGELOG.md` and `.hidev/commits.md` from default goals
+
 ## 0.3.4 2016-04-13
 
 - Fixed build with asset-packagist
