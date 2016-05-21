@@ -43,6 +43,7 @@
         }
     ],
     "require": {
+        "hiqdev/composer-config-plugin": "*@dev",
         "hiqdev/hidev-readme": "*",
         "hiqdev/hidev-travis": "*",
         "hiqdev/hidev-license": "*",
@@ -53,6 +54,7 @@
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
+        "hiqdev/hidev-hiqdev": "dev-master",
         "hiqdev/hidev-readme": "dev-master",
         "hiqdev/hidev-travis": "dev-master",
         "hiqdev/hidev-license": "dev-master",
@@ -67,14 +69,14 @@
         }
     },
     "extra": {
-        "extension-plugin": {
-            "hidev-config": "src/hidev-config.php"
+        "config-plugin": {
+            "hidev": "src/config/hidev.php"
         }
     },
     "repositories": [
         {
             "type": "composer",
-            "url": "https://asset-packagist.hiqdev.com"
+            "url": "https://asset-packagist.org"
         }
     ]
 }

@@ -13,7 +13,7 @@ return [
     'components' => [
         'config' => [
             'include' => [
-                '@hidev/php/config.yml',
+                '@hidev/php/config/goals.yml',
             ],
             'views' => [
                 '@hidev/php/views',

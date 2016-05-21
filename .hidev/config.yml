@@ -17,16 +17,4 @@ package:
         - CI: Travis & Scrutinizer
 
 include:
-    - src/config.yml
-    - .hidev/vendor/hiqdev/hidev-vendor/src/config.yml
-
-require:
-    hiqdev/hidev-php:           "*@dev"
-    hiqdev/hidev-readme:        "*@dev"
-    hiqdev/hidev-travis:        "*@dev"
-    hiqdev/hidev-vendor:        "*@dev"
-    hiqdev/hidev-license:       "*@dev"
-    hiqdev/hidev-phpunit:       "*@dev"
-    hiqdev/hidev-composer:      "*@dev"
-    hiqdev/hidev-scrutinizer:   "*@dev"
-    hiqdev/hidev-php-cs-fixer:  "*@dev"
+    - src/config/goals.yml
