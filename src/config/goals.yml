@@ -62,6 +62,7 @@ codeception.yml:
     matrix:
         allow_failures:
             - php: hhvm
+            - php: 5.5
     cache:
         directories:
             - $HOME/.composer/cache
