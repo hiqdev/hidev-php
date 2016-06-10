@@ -3,6 +3,7 @@ default:
         - composer.json
         - LICENSE
         - README.md
+        - .gitignore
         - .travis.yml
         - .scrutinizer.yml
 install:
