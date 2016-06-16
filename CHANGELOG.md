@@ -1,6 +1,11 @@
 hiqdev/hidev-php changelog
 --------------------------
 
+## 0.4.1 2016-06-16
+
+- Added back `.gitignore` to default goal
+- Added allow failure for PHP 5.5
+
 ## 0.4.0 2016-05-21
 
 - Changed: redone to `composer-config-plugin`

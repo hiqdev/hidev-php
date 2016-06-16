@@ -1,6 +1,13 @@
 hiqdev/hidev-php commits history
 --------------------------------
 
+## 0.4.1 2016-06-16
+
+- Added back `.gitignore` to default goal
+    - ebeece6 2016-06-10 added `.gitinore` to default goal (sol@hiqdev.com)
+- Added allow failure for PHP 5.5
+    - 9010741 2016-05-28 allow failure php 5.5 (sol@hiqdev.com)
+
 ## 0.4.0 2016-05-21
 
 - Changed: redone to `composer-config-plugin`
