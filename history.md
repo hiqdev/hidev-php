@@ -1,9 +1,10 @@
 hiqdev/hidev-php
 ----------------
 
-## [Under development]
+## [0.4.2] - 2016-07-31
 
-- Added `hidev-chkipper`
+- Added use of `hidev-chkipper`
+    - [7b7d2e2] 2016-07-31 redoing to chkipper [sol@hiqdev.com]
     - [cc8856d] 2016-07-31 added `hidev-chkipper` [sol@hiqdev.com]
 
 ## [0.4.1] - 2016-06-16
@@ -262,3 +263,4 @@ hiqdev/hidev-php
 [f33f94b]: https://github.com/hiqdev/hidev-php/commit/f33f94b
 [b953b35]: https://github.com/hiqdev/hidev-php/commit/b953b35
 [cc8856d]: https://github.com/hiqdev/hidev-php/commit/cc8856d
+[7b7d2e2]: https://github.com/hiqdev/hidev-php/commit/7b7d2e2
