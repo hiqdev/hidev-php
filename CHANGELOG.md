@@ -1,6 +1,10 @@
 hiqdev/hidev-php
 ----------------
 
+## [0.4.2] - 2016-07-31
+
+- Added use of `hidev-chkipper`
+
 ## [0.4.1] - 2016-06-16
 
 - Added back `.gitignore` to default goal
@@ -67,10 +71,6 @@ hiqdev/hidev-php
 
 - Fixed php-cs-fixer settings: disabled `return`, `empty_return` and `phpdoc_no_empty_return` fixers
 - Changed: redone to `hidev-php`
-
-## [0.4.2] - 2016-07-31
-
-- Added use of `hidev-chkipper`
 
 ## [0.1.2] - 2015-11-06
 
