@@ -1,6 +1,11 @@
 hiqdev/hidev-php
 ----------------
 
+## [0.4.3] - 2016-10-17
+
+- Changed `update` action: moved to hidev StartController
+    - [992bed5] 2016-10-17 changed `update` action: start/update moved to hidev [sol@hiqdev.com]
+
 ## [0.4.2] - 2016-07-31
 
 - Added use of `hidev-chkipper`
@@ -264,3 +269,4 @@ hiqdev/hidev-php
 [b953b35]: https://github.com/hiqdev/hidev-php/commit/b953b35
 [cc8856d]: https://github.com/hiqdev/hidev-php/commit/cc8856d
 [7b7d2e2]: https://github.com/hiqdev/hidev-php/commit/7b7d2e2
+[992bed5]: https://github.com/hiqdev/hidev-php/commit/992bed5
