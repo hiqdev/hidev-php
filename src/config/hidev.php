@@ -12,6 +12,7 @@
 return [
     'components' => [
         'config' => [
+            'class' => hidev\components\Config::class,
             'include' => [
                 '@hidev/php/config/goals.yml',
             ],
