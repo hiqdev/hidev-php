@@ -1,197 +1,211 @@
 hiqdev/hidev-php
 ----------------
 
-## [0.4.3] - 2016-10-17
+## [0.4.4] - 2017-01-25
+
+- Added `class` to config component configuration - it is necessary for testing in other projects
+    - [bc665f6] 2017-01-25 csfixed [@hiqsol]
+    - [70f7637] 2017-01-25 + config component class - it is necessary for testing [@hiqsol]
+
+## [0.4.3] - 2016-10-29
 
 - Changed `update` action: moved to hidev StartController
-    - [992bed5] 2016-10-17 changed `update` action: start/update moved to hidev [sol@hiqdev.com]
+    - [992bed5] 2016-10-17 changed `update` action: start/update moved to hidev [@hiqsol]
 
 ## [0.4.2] - 2016-07-31
 
 - Added use of `hidev-chkipper`
-    - [7b7d2e2] 2016-07-31 redoing to chkipper [sol@hiqdev.com]
-    - [cc8856d] 2016-07-31 added `hidev-chkipper` [sol@hiqdev.com]
+    - [7b7d2e2] 2016-07-31 redoing to chkipper [@hiqsol]
+    - [cc8856d] 2016-07-31 added `hidev-chkipper` [@hiqsol]
 
 ## [0.4.1] - 2016-06-16
 
 - Added back `.gitignore` to default goal
-    - [ebeece6] 2016-06-10 added `.gitinore` to default goal [sol@hiqdev.com]
+    - [ebeece6] 2016-06-10 added `.gitinore` to default goal [@hiqsol]
 - Added allow failure for PHP 5.5
-    - [9010741] 2016-05-28 allow failure php 5.5 [sol@hiqdev.com]
+    - [9010741] 2016-05-28 allow failure php 5.5 [@hiqsol]
 
 ## [0.4.0] - 2016-05-21
 
 - Changed: redone to `composer-config-plugin`
-    - [d38f8dc] 2016-05-21 redoing to composer-config-plugin [sol@hiqdev.com]
+    - [d38f8dc] 2016-05-21 redoing to composer-config-plugin [@hiqsol]
 - Removed `CHANGELOG.md` and `.hidev/commits.md` from default goals
-    - [12b7617] 2016-05-21 removed CHANGELOG.md and .hidev/commits.md from default goals [sol@hiqdev.com]
+    - [12b7617] 2016-05-21 removed CHANGELOG.md and .hidev/commits.md from default goals [@hiqsol]
 
 ## [0.3.4] - 2016-04-13
 
 - Fixed build with asset-packagist
-    - [a141253] 2016-04-13 fixed build with asset-packagist [sol@hiqdev.com]
+    - [a141253] 2016-04-13 fixed build with asset-packagist [@hiqsol]
 
 ## [0.3.3] - 2016-04-13
 
 - Changed to `hidev-config` <- `extension-config`
-    - [34db12d] 2016-04-13 redone to `hidev-config` <- `extension-config` [sol@hiqdev.com]
+    - [34db12d] 2016-04-13 redone to `hidev-config` <- `extension-config` [@hiqsol]
 
 ## [0.3.2] - 2016-03-30
 
-    - [9f28ac4] 2016-03-30 redoing to `extension-config` <- `yii2-extraconfig` [sol@hiqdev.com]
+    - [9f28ac4] 2016-03-30 redoing to `extension-config` <- `yii2-extraconfig` [@hiqsol]
 
 ## [0.3.1] - 2016-01-17
 
 - Added `composer --version` after composer self-update on travis `before_install`
-    - [587fb8f] 2016-01-17 + `composer --version` after composer self-update on travis `before_install` [sol@hiqdev.com]
+    - [587fb8f] 2016-01-17 + `composer --version` after composer self-update on travis `before_install` [@hiqsol]
 
 ## [0.3.0] - 2016-01-15
 
 - Fixed tests
-    - [23e67d0] 2016-01-15 fixed tests [sol@hiqdev.com]
+    - [23e67d0] 2016-01-15 fixed tests [@hiqsol]
 - Added composer self-update on travis `before_install`
-    - [0d05e26] 2016-01-14 fixed travis `before_install` composer self-update [sol@hiqdev.com]
-    - [fe1ae73] 2016-01-14 + travis composer/self-update on `before_install` [sol@hiqdev.com]
+    - [0d05e26] 2016-01-14 fixed travis `before_install` composer self-update [@hiqsol]
+    - [fe1ae73] 2016-01-14 + travis composer/self-update on `before_install` [@hiqsol]
 - Added general `install` and `update` goals
-    - [a23d9ec] 2016-01-14 + install and update goals [sol@hiqdev.com]
+    - [a23d9ec] 2016-01-14 + install and update goals [@hiqsol]
 - Changed hidev-travis-ci -> hidev-travis
-    - [bf578ac] 2016-01-14 changed hidev-travis-ci -> hidev-travis [sol@hiqdev.com]
-    - [1e5c5ca] 2016-01-13 Changed hidev-travis-ci -> hidev-travis [sol@hiqdev.com]
+    - [bf578ac] 2016-01-14 changed hidev-travis-ci -> hidev-travis [@hiqsol]
+    - [1e5c5ca] 2016-01-13 Changed hidev-travis-ci -> hidev-travis [@hiqsol]
 - Changed deps -> before
-    - [52f1556] 2016-01-13 Changed deps -> before [sol@hiqdev.com]
+    - [52f1556] 2016-01-13 Changed deps -> before [@hiqsol]
 - Changed: redone with yii2-extraconfig
-    - [34b6a14] 2016-01-14 removed Plugin.php in favour of yii2-extraconfig [sol@hiqdev.com]
-    - [95b45b2] 2016-01-06 changed config structure [sol@hiqdev.com]
-    - [dadf5b1] 2016-01-06 redoing with yii2-extraconfig [sol@hiqdev.com]
-    - [6f3de9d] 2016-01-02 + scrutinizer configuration [sol@hiqdev.com]
+    - [34b6a14] 2016-01-14 removed Plugin.php in favour of yii2-extraconfig [@hiqsol]
+    - [95b45b2] 2016-01-06 changed config structure [@hiqsol]
+    - [dadf5b1] 2016-01-06 redoing with yii2-extraconfig [@hiqsol]
+    - [6f3de9d] 2016-01-02 + scrutinizer configuration [@hiqsol]
 
 ## [0.2.1] - 2015-12-23
 
 - Added Travis `after_script` upload coverage to Scrutinizer
-    - [fe2e321] 2015-12-23 + travis `after_script` upload coverage to scrutinizer [sol@hiqdev.com]
+    - [fe2e321] 2015-12-23 + travis `after_script` upload coverage to scrutinizer [@hiqsol]
 
 ## [0.2.0] - 2015-12-23
 
 - Added Scrutinizer badges
-    - [0a87572] 2015-12-23 fixed composer requires [sol@hiqdev.com]
-    - [50d6178] 2015-12-23 + scrutinizer badges [sol@hiqdev.com]
+    - [0a87572] 2015-12-23 fixed composer requires [@hiqsol]
+    - [50d6178] 2015-12-23 + scrutinizer badges [@hiqsol]
 - Changed php-cs-fixer config to level psr2 only, else moved to `hiqdev/hidev-vendor`
-    - [a280d34] 2015-12-23 fixing build [sol@hiqdev.com]
-    - [a26c8d9] 2015-12-21 changed php-cs-fixer config to level psr2 only, else moved to [sol@hiqdev.com]
+    - [a280d34] 2015-12-23 fixing build [@hiqsol]
+    - [a26c8d9] 2015-12-21 changed php-cs-fixer config to level psr2 only, else moved to [@hiqsol]
 
 ## [0.1.7] - 2015-12-15
 
 - Fixed phpdoc options for php-cs-fixer
-    - [c48f34c] 2015-12-15 fixed phpdoc options for php-cs-fixer [sol@hiqdev.com]
+    - [c48f34c] 2015-12-15 fixed phpdoc options for php-cs-fixer [@hiqsol]
 - Fixed tests
-    - [c6064a5] 2015-12-14 fixed tests: + require-dev yii2-pluginmanager [sol@hiqdev.com]
-    - [09edc3d] 2015-12-14 fixed tests [sol@hiqdev.com]
+    - [c6064a5] 2015-12-14 fixed tests: + require-dev yii2-pluginmanager [@hiqsol]
+    - [09edc3d] 2015-12-14 fixed tests [@hiqsol]
 
 ## [0.1.6] - 2015-12-14
 
 - Changed Travis build: dont build 5.4 and dont allow failure 7
-    - [ebd2f47] 2015-12-14 changed Travis build: dont build 5.4 and dont allow failur 7 [sol@hiqdev.com]
+    - [ebd2f47] 2015-12-14 changed Travis build: dont build 5.4 and dont allow failur 7 [@hiqsol]
 
 ## [0.1.5] - 2015-11-26
 
 - Added tests and coverage
-    - [43dd041] 2015-11-26 improved tests [sol@hiqdev.com]
-    - [f59a1e8] 2015-11-26 + phpunit coverage [sol@hiqdev.com]
-    - [743d1af] 2015-11-26 removed unused templates [sol@hiqdev.com]
-    - [d755bfc] 2015-11-24 fixed require-dev [sol@hiqdev.com]
+    - [43dd041] 2015-11-26 improved tests [@hiqsol]
+    - [f59a1e8] 2015-11-26 + phpunit coverage [@hiqsol]
+    - [743d1af] 2015-11-26 removed unused templates [@hiqsol]
+    - [d755bfc] 2015-11-24 fixed require-dev [@hiqsol]
 
 ## [0.1.4] - 2015-11-24
 
 - Added Travis CI integration
-    - [dd13a9a] 2015-11-24 + Travis CI badge [sol@hiqdev.com]
-    - [a350ac8] 2015-11-21 doing travis [sol@hiqdev.com]
-    - [908e485] 2015-11-20 + allow travis failures for php 7 and hhvm [sol@hiqdev.com]
-    - [c2127af] 2015-11-20 trying travis [sol@hiqdev.com]
-    - [facad43] 2015-11-19 + php 5.4 for travis [sol@hiqdev.com]
-    - [ab4f350] 2015-11-19 adding Travis CI [sol@hiqdev.com]
-    - [3ac63e5] 2015-11-18 + hidev-travis-ci [sol@hiqdev.com]
+    - [dd13a9a] 2015-11-24 + Travis CI badge [@hiqsol]
+    - [a350ac8] 2015-11-21 doing travis [@hiqsol]
+    - [908e485] 2015-11-20 + allow travis failures for php 7 and hhvm [@hiqsol]
+    - [c2127af] 2015-11-20 trying travis [@hiqsol]
+    - [facad43] 2015-11-19 + php 5.4 for travis [@hiqsol]
+    - [ab4f350] 2015-11-19 adding Travis CI [@hiqsol]
+    - [3ac63e5] 2015-11-18 + hidev-travis-ci [@hiqsol]
 - Changed default test system to phpunit and added `build` goal
-    - [0e00e9e] 2015-11-23 changed default test system to phpunit and added `build` goal [sol@hiqdev.com]
+    - [0e00e9e] 2015-11-23 changed default test system to phpunit and added `build` goal [@hiqsol]
 - Added very basic testing
-    - [4bfdb84] 2015-11-23 + test [sol@hiqdev.com]
+    - [4bfdb84] 2015-11-23 + test [@hiqsol]
 - Added PHPUnit integration
-    - [ec0b291] 2015-11-23 + requires [sol@hiqdev.com]
-    - [56d3d35] 2015-11-23 + package require-devs [sol@hiqdev.com]
+    - [ec0b291] 2015-11-23 + requires [@hiqsol]
+    - [56d3d35] 2015-11-23 + package require-devs [@hiqsol]
 
 ## [0.1.3] - 2015-11-18
 
 - Fixed php-cs-fixer settings: disabled `return`, `empty_return` and `phpdoc_no_empty_return` fixers
-    - [d34b52b] 2015-11-18 php-cs-fixed [sol@hiqdev.com]
-    - [3394aed] 2015-11-18 php-cs-fixed [sol@hiqdev.com]
-    - [4c5704b] 2015-11-18 + disabled `phpdoc_no_empty_return` and `return` fixers [sol@hiqdev.com]
-    - [db0359e] 2015-11-09 disabled `empty_return` fixer [sol@hiqdev.com]
+    - [d34b52b] 2015-11-18 php-cs-fixed [@hiqsol]
+    - [3394aed] 2015-11-18 php-cs-fixed [@hiqsol]
+    - [4c5704b] 2015-11-18 + disabled `phpdoc_no_empty_return` and `return` fixers [@hiqsol]
+    - [db0359e] 2015-11-09 disabled `empty_return` fixer [@hiqsol]
 - Changed: redone to `hidev-php`
-    - [8761f1c] 2015-11-17 hideved [sol@hiqdev.com]
-    - [415c189] 2015-11-17 fixed namespace [sol@hiqdev.com]
-    - [d2de6a4] 2015-11-17 redoing to `hidev-php` [sol@hiqdev.com]
+    - [8761f1c] 2015-11-17 hideved [@hiqsol]
+    - [415c189] 2015-11-17 fixed namespace [@hiqsol]
+    - [d2de6a4] 2015-11-17 redoing to `hidev-php` [@hiqsol]
 
 ## [0.1.2] - 2015-11-06
 
 - Fixed php-cs-fixer config: dont touch aligning for equals and double arrows
-    - [8135ccf] 2015-11-09 php-cs-fixed [sol@hiqdev.com]
-    - [62d68e7] 2015-11-09 + dont touch aligning for equals and double arrows [sol@hiqdev.com]
+    - [8135ccf] 2015-11-09 php-cs-fixed [@hiqsol]
+    - [62d68e7] 2015-11-09 + dont touch aligning for equals and double arrows [@hiqsol]
 
 ## [0.1.1] - 2015-11-06
 
 - Changed PHP-CS-Fixer options: disabled `align_double_arrow`
-    - [d92805e] 2015-11-06 Disabled option `align_double_arrow` in PHP-CS-Fixer [d.naumenko.a@gmail.com]
+    - [d92805e] 2015-11-06 Disabled option `align_double_arrow` in PHP-CS-Fixer [@SilverFire]
 
 ## [0.1.0] - 2015-10-24
 
 - Added README badges for Packagist and VersionEye
-    - [8b470ab] 2015-10-24 + readme badges [sol@hiqdev.com]
+    - [8b470ab] 2015-10-24 + readme badges [@hiqsol]
 
 ## [0.0.5] - 2015-10-15
 
 - Added README Installation section template
-    - [c6f95c5] 2015-10-15 + readme Installation section template [sol@hiqdev.com]
+    - [c6f95c5] 2015-10-15 + readme Installation section template [@hiqsol]
 
 ## [0.0.4] - 2015-09-09
 
 - Added basic Class.php generation with: hidev gen Class
-    - [4992bc2] 2015-09-09 + simple Class template [sol@hiqdev.com]
-    - [1509d25] 2015-09-09 + gen alias [sol@hiqdev.com]
+    - [4992bc2] 2015-09-09 + simple Class template [@hiqsol]
+    - [1509d25] 2015-09-09 + gen alias [@hiqsol]
 
 ## [0.0.3] - 2015-08-23
 
 - Added skip `vendor` and `web/assets` from fixing
-    - [08d9d19] 2015-08-23 + skip vendor and web/assets from fixing [sol@hiqdev.com]
+    - [08d9d19] 2015-08-23 + skip vendor and web/assets from fixing [@hiqsol]
 - Fixed project description
-    - [f8e1ba9] 2015-08-17 fixed project description [sol@hiqdev.com]
+    - [f8e1ba9] 2015-08-17 fixed project description [@hiqsol]
 
 ## [0.0.2] - 2015-08-17
 
 - Changed to be usable for any vendor
-    - [270433d] 2015-08-17 making this extension generally usable [sol@hiqdev.com]
-    - [3db083a] 2015-08-17 * README [sol@hiqdev.com]
+    - [270433d] 2015-08-17 making this extension generally usable [@hiqsol]
+    - [3db083a] 2015-08-17 * README [@hiqsol]
 - Fixed dependencies for `all` goal
-    - [df50f43] 2015-07-20 * all goal deps: - `.php_cs`, git [sol@hiqdev.com]
-    - [7323c43] 2015-07-17 php-cs-fixed [sol@hiqdev.com]
-    - [c83d6cb] 2015-07-17 regenerated .gitignore [sol@hiqdev.com]
-    - [b1fdf38] 2015-07-17 * deps: git moved to be last [sol@hiqdev.com]
+    - [df50f43] 2015-07-20 * all goal deps: - `.php_cs`, git [@hiqsol]
+    - [7323c43] 2015-07-17 php-cs-fixed [@hiqsol]
+    - [c83d6cb] 2015-07-17 regenerated .gitignore [@hiqsol]
+    - [b1fdf38] 2015-07-17 * deps: git moved to be last [@hiqsol]
 
 ## [0.0.1] - 2015-07-11
 
 - Changed config: redone parent to plugins
-    - [a8b6278] 2015-07-11 simplified .hidev/config require to hidev-config-php only [sol@hiqdev.com]
-    - [f0a8c85] 2015-07-11 + require at .hidev/config [sol@hiqdev.com]
-    - [2d01310] 2015-07-11 moved back to .hidev [sol@hiqdev.com]
-    - [472c6f6] 2015-07-11 moved back to .hidev [sol@hiqdev.com]
-    - [dddb74e] 2015-07-10 - require-dev from composer.json [sol@hiqdev.com]
-    - [d54d2ed] 2015-07-09 fixed namespace at Plugin.php [sol@hiqdev.com]
-    - [dc61fdd] 2015-07-09 - vendor config (it is at hidev-config) [sol@hiqdev.com]
-    - [5c8207c] 2015-07-09 redoing parent to plugins [sol@hiqdev.com]
+    - [a8b6278] 2015-07-11 simplified .hidev/config require to hidev-config-php only [@hiqsol]
+    - [f0a8c85] 2015-07-11 + require at .hidev/config [@hiqsol]
+    - [2d01310] 2015-07-11 moved back to .hidev [@hiqsol]
+    - [472c6f6] 2015-07-11 moved back to .hidev [@hiqsol]
+    - [dddb74e] 2015-07-10 - require-dev from composer.json [@hiqsol]
+    - [d54d2ed] 2015-07-09 fixed namespace at Plugin.php [@hiqsol]
+    - [dc61fdd] 2015-07-09 - vendor config (it is at hidev-config) [@hiqsol]
+    - [5c8207c] 2015-07-09 redoing parent to plugins [@hiqsol]
 - Inited
-    - [f33f94b] 2015-07-09 inited [sol@hiqdev.com]
-    - [b953b35] 2015-07-09 inited [sol@hiqdev.com]
+    - [f33f94b] 2015-07-09 inited [@hiqsol]
+    - [b953b35] 2015-07-09 inited [@hiqsol]
 
 ## [Development started] - 2015-07-09
 
+[@hiqsol]: https://github.com/hiqsol
+[sol@hiqdev.com]: https://github.com/hiqsol
+[@SilverFire]: https://github.com/SilverFire
+[d.naumenko.a@gmail.com]: https://github.com/SilverFire
+[@tafid]: https://github.com/tafid
+[andreyklochok@gmail.com]: https://github.com/tafid
+[@BladeRoot]: https://github.com/BladeRoot
+[bladeroot@gmail.com]: https://github.com/BladeRoot
 [ebeece6]: https://github.com/hiqdev/hidev-php/commit/ebeece6
 [9010741]: https://github.com/hiqdev/hidev-php/commit/9010741
 [d38f8dc]: https://github.com/hiqdev/hidev-php/commit/d38f8dc
@@ -270,3 +284,31 @@ hiqdev/hidev-php
 [cc8856d]: https://github.com/hiqdev/hidev-php/commit/cc8856d
 [7b7d2e2]: https://github.com/hiqdev/hidev-php/commit/7b7d2e2
 [992bed5]: https://github.com/hiqdev/hidev-php/commit/992bed5
+[bc665f6]: https://github.com/hiqdev/hidev-php/commit/bc665f6
+[70f7637]: https://github.com/hiqdev/hidev-php/commit/70f7637
+[Under development]: https://github.com/hiqdev/hidev-php/compare/0.4.3...HEAD
+[0.4.3]: https://github.com/hiqdev/hidev-php/compare/0.4.2...0.4.3
+[0.4.2]: https://github.com/hiqdev/hidev-php/compare/0.4.1...0.4.2
+[0.4.1]: https://github.com/hiqdev/hidev-php/compare/0.4.0...0.4.1
+[0.4.0]: https://github.com/hiqdev/hidev-php/compare/0.3.4...0.4.0
+[0.3.4]: https://github.com/hiqdev/hidev-php/compare/0.3.3...0.3.4
+[0.3.3]: https://github.com/hiqdev/hidev-php/compare/0.3.2...0.3.3
+[0.3.2]: https://github.com/hiqdev/hidev-php/compare/0.3.1...0.3.2
+[0.3.1]: https://github.com/hiqdev/hidev-php/compare/0.3.0...0.3.1
+[0.3.0]: https://github.com/hiqdev/hidev-php/compare/0.2.1...0.3.0
+[0.2.1]: https://github.com/hiqdev/hidev-php/compare/0.2.0...0.2.1
+[0.2.0]: https://github.com/hiqdev/hidev-php/compare/0.1.7...0.2.0
+[0.1.7]: https://github.com/hiqdev/hidev-php/compare/0.1.6...0.1.7
+[0.1.6]: https://github.com/hiqdev/hidev-php/compare/0.1.5...0.1.6
+[0.1.5]: https://github.com/hiqdev/hidev-php/compare/0.1.4...0.1.5
+[0.1.4]: https://github.com/hiqdev/hidev-php/compare/0.1.3...0.1.4
+[0.1.3]: https://github.com/hiqdev/hidev-php/compare/0.1.2...0.1.3
+[0.1.2]: https://github.com/hiqdev/hidev-php/compare/0.1.1...0.1.2
+[0.1.1]: https://github.com/hiqdev/hidev-php/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/hiqdev/hidev-php/compare/0.0.5...0.1.0
+[0.0.5]: https://github.com/hiqdev/hidev-php/compare/0.0.4...0.0.5
+[0.0.4]: https://github.com/hiqdev/hidev-php/compare/0.0.3...0.0.4
+[0.0.3]: https://github.com/hiqdev/hidev-php/compare/0.0.2...0.0.3
+[0.0.2]: https://github.com/hiqdev/hidev-php/compare/0.0.1...0.0.2
+[0.0.1]: https://github.com/hiqdev/hidev-php/releases/tag/0.0.1
+[0.4.4]: https://github.com/hiqdev/hidev-php/compare/0.4.3...0.4.4
