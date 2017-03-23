@@ -1,6 +1,11 @@
 hiqdev/hidev-php
 ----------------
 
+## [0.4.5] - 2017-03-23
+
+- Updated travis config to build on 7.1, dropped 5.5 support
+    - [2c8fa1c] 2017-03-23 Updated travis config [@SilverFire]
+
 ## [0.4.4] - 2017-01-25
 
 - Added `class` to config component configuration - it is necessary for testing in other projects
@@ -136,7 +141,7 @@ hiqdev/hidev-php
     - [415c189] 2015-11-17 fixed namespace [@hiqsol]
     - [d2de6a4] 2015-11-17 redoing to `hidev-php` [@hiqsol]
 
-## [0.1.2] - 2015-11-06
+## [0.1.2] - 2015-11-09
 
 - Fixed php-cs-fixer config: dont touch aligning for equals and double arrows
     - [8135ccf] 2015-11-09 php-cs-fixed [@hiqsol]
@@ -286,7 +291,7 @@ hiqdev/hidev-php
 [992bed5]: https://github.com/hiqdev/hidev-php/commit/992bed5
 [bc665f6]: https://github.com/hiqdev/hidev-php/commit/bc665f6
 [70f7637]: https://github.com/hiqdev/hidev-php/commit/70f7637
-[Under development]: https://github.com/hiqdev/hidev-php/compare/0.4.3...HEAD
+[Under development]: https://github.com/hiqdev/hidev-php/compare/0.4.4...HEAD
 [0.4.3]: https://github.com/hiqdev/hidev-php/compare/0.4.2...0.4.3
 [0.4.2]: https://github.com/hiqdev/hidev-php/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php/compare/0.4.0...0.4.1
@@ -312,3 +317,5 @@ hiqdev/hidev-php
 [0.0.2]: https://github.com/hiqdev/hidev-php/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-php/releases/tag/0.0.1
 [0.4.4]: https://github.com/hiqdev/hidev-php/compare/0.4.3...0.4.4
+[2c8fa1c]: https://github.com/hiqdev/hidev-php/commit/2c8fa1c
+[0.4.5]: https://github.com/hiqdev/hidev-php/compare/0.4.4...0.4.5

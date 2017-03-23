@@ -1,6 +1,10 @@
 hiqdev/hidev-php
 ----------------
 
+## [0.4.5] - 2017-03-23
+
+- Updated travis config to build on 7.1, dropped 5.5 support ([@SilverFire])
+
 ## [0.4.4] - 2017-01-25
 
 - Added `class` to config component configuration - it is necessary for testing in other projects ([@hiqsol])
@@ -80,7 +84,7 @@ hiqdev/hidev-php
 - Fixed php-cs-fixer settings: disabled `return`, `empty_return` and `phpdoc_no_empty_return` fixers ([@hiqsol])
 - Changed: redone to `hidev-php` ([@hiqsol])
 
-## [0.1.2] - 2015-11-06
+## [0.1.2] - 2015-11-09
 
 - Fixed php-cs-fixer config: dont touch aligning for equals and double arrows ([@hiqsol])
 
@@ -125,7 +129,7 @@ hiqdev/hidev-php
 [andreyklochok@gmail.com]: https://github.com/tafid
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
-[Under development]: https://github.com/hiqdev/hidev-php/compare/0.4.3...HEAD
+[Under development]: https://github.com/hiqdev/hidev-php/compare/0.4.4...HEAD
 [0.4.3]: https://github.com/hiqdev/hidev-php/compare/0.4.2...0.4.3
 [0.4.2]: https://github.com/hiqdev/hidev-php/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php/compare/0.4.0...0.4.1
@@ -151,3 +155,4 @@ hiqdev/hidev-php
 [0.0.2]: https://github.com/hiqdev/hidev-php/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-php/releases/tag/0.0.1
 [0.4.4]: https://github.com/hiqdev/hidev-php/compare/0.4.3...0.4.4
+[0.4.5]: https://github.com/hiqdev/hidev-php/compare/0.4.4...0.4.5
