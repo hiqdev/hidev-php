@@ -11,13 +11,14 @@
 
 return [
     'components' => [
-        'config' => [
-            'class' => hidev\components\Config::class,
-            'include' => [
-                '@hidev/php/config/goals.yml',
-            ],
-            'views' => [
-                '@hidev/php/views',
+        'include' => [
+            __DIR__ . '/goals.yml',
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@hidev/views' => ['@hidev/php/views'],
+                ],
             ],
         ],
     ],

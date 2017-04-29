@@ -32,7 +32,7 @@ readme:
         scrutinizer.quality:
         versioneye.dependencies:
 
-php-cs-fixer:
+.php_cs:
     level: psr2
 
 phpunit:
@@ -47,10 +47,6 @@ codeception:
     before:
         - generate/mkdir tests
         - generate/once  tests/_bootstrap
-
-codeception.yml:
-    coverage:
-        enable: true
 
 .travis.yml:
     sudo: false
