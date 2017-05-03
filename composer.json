@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hidev-php",
     "type": "yii2-extension",
-    "description": "HiDev config for PHP projects",
+    "description": "HiDev plugin for PHP projects",
     "keywords": [
         "hidev",
         "config",

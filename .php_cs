@@ -1,7 +1,7 @@
 <?php
 
 $header = <<<EOF
-HiDev config for PHP projects
+HiDev plugin for PHP projects
 
 @link      https://github.com/hiqdev/hidev-php
 @package   hidev-php
@@ -26,10 +26,8 @@ return PhpCsFixer\Config::create()
         ],
         'concat_space'                               =>  ['spacing' => 'one'],
         'array_syntax'                               =>  ['syntax' => 'short'],
-        'empty_return'                               =>  false,
         'blank_line_before_return'                   =>  false,
         'phpdoc_align'                               =>  false,
-        'phpdoc_params'                              =>  false,
         'phpdoc_scalar'                              =>  false,
         'phpdoc_separation'                          =>  false,
         'phpdoc_to_comment'                          =>  false,

@@ -1,6 +1,6 @@
 <?php
 /**
- * HiDev config for PHP projects
+ * HiDev plugin for PHP projects
  *
  * @link      https://github.com/hiqdev/hidev-php
  * @package   hidev-php
