@@ -9,13 +9,13 @@ package:
         [HiDev] is the automation tool mixed with code generator for easier continuous development.
         This plugin provides basic HiDev configuration for PHP projects.
 
-        Provides:
+        Provides support for:
 
-        - .gitignore
-        - LICENSE with [hidev-license]
-        - README.md with [hidev-readme]
-        - CHANGELOG.md with [hidev-chkipper]
-        - composer.json with [hidev-composer]
+        - `.gitignore`
+        - `LICENSE` with [hidev-license]
+        - `README.md` with [hidev-readme]
+        - `CHANGELOG.md` with [hidev-chkipper]
+        - `composer.json` with [hidev-composer]
         - [PHP-CS-Fixer] with [hidev-php-cs-fixer]
         - [PHPUnit] tests with [hidev-phpunit]
         - [Travis] with [hidev-travis]

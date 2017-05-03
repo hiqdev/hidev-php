@@ -1,5 +1,12 @@
-hiqdev/hidev-php
-----------------
+# hiqdev/hidev-php
+
+## [0.6.0] - 2017-05-03
+
+- Redone to new hidev
+    - [6e17eca] 2017-05-03 csfixed [@hiqsol]
+    - [41ed916] 2017-05-03 doc [@hiqsol]
+    - [7508952] 2017-05-03 removed codeception from goals [@hiqsol]
+    - [948e684] 2017-04-29 redoing to new hidev [@hiqsol]
 
 ## [0.4.5] - 2017-03-23
 
@@ -319,3 +326,8 @@ hiqdev/hidev-php
 [0.4.4]: https://github.com/hiqdev/hidev-php/compare/0.4.3...0.4.4
 [2c8fa1c]: https://github.com/hiqdev/hidev-php/commit/2c8fa1c
 [0.4.5]: https://github.com/hiqdev/hidev-php/compare/0.4.4...0.4.5
+[6e17eca]: https://github.com/hiqdev/hidev-php/commit/6e17eca
+[41ed916]: https://github.com/hiqdev/hidev-php/commit/41ed916
+[7508952]: https://github.com/hiqdev/hidev-php/commit/7508952
+[948e684]: https://github.com/hiqdev/hidev-php/commit/948e684
+[0.6.0]: https://github.com/hiqdev/hidev-php/compare/0.4.5...0.6.0
