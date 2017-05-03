@@ -43,11 +43,6 @@ phpunit:
 vcsignore:
     coverage.clover: phpunit generated files
 
-codeception:
-    before:
-        - generate/mkdir tests
-        - generate/once  tests/_bootstrap
-
 .travis.yml:
     sudo: false
     dist: trusty
