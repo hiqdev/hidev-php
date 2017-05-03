@@ -1,7 +1,6 @@
-HiDev PHP
-=========
+# HiDev PHP
 
-**HiDev config for PHP projects**
+**HiDev plugin for PHP projects**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-php/v/stable)](https://packagist.org/packages/hiqdev/hidev-php)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-php/downloads)](https://packagist.org/packages/hiqdev/hidev-php)
@@ -10,15 +9,34 @@ HiDev PHP
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-php.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-php/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-php/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-php/dev-master)
 
-[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+[HiDev] is the automation tool mixed with code generator for easier continuous development.
 This plugin provides basic HiDev configuration for PHP projects.
 
 Provides:
-- standart: .gitignore, LICENSE, README.md, CHANGELOG.md
-- composer.json
-- PHP-CS-Fixer
-- PHPUnit
-- CI: Travis & Scrutinizer
+
+- .gitignore
+- LICENSE with [hidev-license]
+- README.md with [hidev-readme]
+- CHANGELOG.md with [hidev-chkipper]
+- composer.json with [hidev-composer]
+- [PHP-CS-Fixer] with [hidev-php-cs-fixer]
+- [PHPUnit] tests with [hidev-phpunit]
+- [Travis] with [hidev-travis]
+- [Scrutinizer] with [hidev-scrutinizer]
+
+[hidev]:                https://github.com/hiqdev/hidev
+[hidev-readme]:         https://github.com/hiqdev/hidev-readme
+[hidev-travis]:         https://github.com/hiqdev/hidev-travis
+[hidev-license]:        https://github.com/hiqdev/hidev-license
+[hidev-phpunit]:        https://github.com/hiqdev/hidev-phpunit
+[hidev-chkipper]:       https://github.com/hiqdev/hidev-chkipper
+[hidev-composer]:       https://github.com/hiqdev/hidev-composer
+[hidev-scrutinizer]:    https://github.com/hiqdev/hidev-scrutinizer
+[hidev-php-cs-fixer]:   https://github.com/hiqdev/hidev-php-cs-fixer
+[php-cs-fixer]:         https://github.com/FriendsOfPHP/PHP-CS-Fixer
+[phpunit]:              https://phpunit.de/
+[travis]:               https://travis-ci.org/
+[scrutinizer]:          https://scrutinizer-ci.com/
 
 ## Installation
 

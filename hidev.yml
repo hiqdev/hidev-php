@@ -1,0 +1,39 @@
+package:
+    type:           yii2-extension
+    name:           hidev-php
+    title:          HiDev plugin for PHP projects
+    headline:       HiDev PHP
+    keywords:       hidev, config, php
+    namespace:      hidev\php
+    description:    |
+        [HiDev] is the automation tool mixed with code generator for easier continuous development.
+        This plugin provides basic HiDev configuration for PHP projects.
+
+        Provides:
+
+        - .gitignore
+        - LICENSE with [hidev-license]
+        - README.md with [hidev-readme]
+        - CHANGELOG.md with [hidev-chkipper]
+        - composer.json with [hidev-composer]
+        - [PHP-CS-Fixer] with [hidev-php-cs-fixer]
+        - [PHPUnit] tests with [hidev-phpunit]
+        - [Travis] with [hidev-travis]
+        - [Scrutinizer] with [hidev-scrutinizer]
+
+        [hidev]:                https://github.com/hiqdev/hidev
+        [hidev-readme]:         https://github.com/hiqdev/hidev-readme
+        [hidev-travis]:         https://github.com/hiqdev/hidev-travis
+        [hidev-license]:        https://github.com/hiqdev/hidev-license
+        [hidev-phpunit]:        https://github.com/hiqdev/hidev-phpunit
+        [hidev-chkipper]:       https://github.com/hiqdev/hidev-chkipper
+        [hidev-composer]:       https://github.com/hiqdev/hidev-composer
+        [hidev-scrutinizer]:    https://github.com/hiqdev/hidev-scrutinizer
+        [hidev-php-cs-fixer]:   https://github.com/hiqdev/hidev-php-cs-fixer
+        [php-cs-fixer]:         https://github.com/FriendsOfPHP/PHP-CS-Fixer
+        [phpunit]:              https://phpunit.de/
+        [travis]:               https://travis-ci.org/
+        [scrutinizer]:          https://scrutinizer-ci.com/
+
+include:
+    - src/config/goals.yml
