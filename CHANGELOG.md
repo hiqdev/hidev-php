@@ -1,5 +1,9 @@
 # hiqdev/hidev-php
 
+## [0.6.1] - 2017-11-10
+
+- Removed build PHP 5.6, 7.0 and HHVM from Travis ([@hiqsol])
+
 ## [0.6.0] - 2017-05-03
 
 - Redone to new hidev ([@hiqsol])
@@ -132,7 +136,7 @@
 [andreyklochok@gmail.com]: https://github.com/tafid
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
-[Under development]: https://github.com/hiqdev/hidev-php/compare/0.4.4...HEAD
+[Under development]: https://github.com/hiqdev/hidev-php/compare/0.6.0...HEAD
 [0.4.3]: https://github.com/hiqdev/hidev-php/compare/0.4.2...0.4.3
 [0.4.2]: https://github.com/hiqdev/hidev-php/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php/compare/0.4.0...0.4.1
@@ -160,3 +164,4 @@
 [0.4.4]: https://github.com/hiqdev/hidev-php/compare/0.4.3...0.4.4
 [0.4.5]: https://github.com/hiqdev/hidev-php/compare/0.4.4...0.4.5
 [0.6.0]: https://github.com/hiqdev/hidev-php/compare/0.4.5...0.6.0
+[0.6.1]: https://github.com/hiqdev/hidev-php/compare/0.6.0...0.6.1

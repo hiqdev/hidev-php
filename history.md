@@ -1,5 +1,13 @@
 # hiqdev/hidev-php
 
+## [0.6.1] - 2017-11-10
+
+- Removed build PHP 5.6, 7.0 and HHVM from Travis
+    - [0c67eb6] 2017-11-10 csfixed [@hiqsol]
+    - [731a8fd] 2017-11-10 removed PHP 5.6 and 7.0 from Travis build [@hiqsol]
+    - [ae4cdda] 2017-11-10 removed HHVM build from Travis [@hiqsol]
+    - [1f0c2c8] 2017-11-07 removed PHP 5.6 and 7.0 from list of versions to build on Travis [@hiqsol]
+
 ## [0.6.0] - 2017-05-03
 
 - Redone to new hidev
@@ -298,7 +306,7 @@
 [992bed5]: https://github.com/hiqdev/hidev-php/commit/992bed5
 [bc665f6]: https://github.com/hiqdev/hidev-php/commit/bc665f6
 [70f7637]: https://github.com/hiqdev/hidev-php/commit/70f7637
-[Under development]: https://github.com/hiqdev/hidev-php/compare/0.4.4...HEAD
+[Under development]: https://github.com/hiqdev/hidev-php/compare/0.6.0...HEAD
 [0.4.3]: https://github.com/hiqdev/hidev-php/compare/0.4.2...0.4.3
 [0.4.2]: https://github.com/hiqdev/hidev-php/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php/compare/0.4.0...0.4.1
@@ -331,3 +339,8 @@
 [7508952]: https://github.com/hiqdev/hidev-php/commit/7508952
 [948e684]: https://github.com/hiqdev/hidev-php/commit/948e684
 [0.6.0]: https://github.com/hiqdev/hidev-php/compare/0.4.5...0.6.0
+[0c67eb6]: https://github.com/hiqdev/hidev-php/commit/0c67eb6
+[731a8fd]: https://github.com/hiqdev/hidev-php/commit/731a8fd
+[ae4cdda]: https://github.com/hiqdev/hidev-php/commit/ae4cdda
+[1f0c2c8]: https://github.com/hiqdev/hidev-php/commit/1f0c2c8
+[0.6.1]: https://github.com/hiqdev/hidev-php/compare/0.6.0...0.6.1
