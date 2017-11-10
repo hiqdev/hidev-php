@@ -8,7 +8,6 @@
  * @copyright Copyright (c) 2015-2017, HiQDev (http://hiqdev.com/)
  */
 
-
 return [
     'components' => [
         'include' => [
