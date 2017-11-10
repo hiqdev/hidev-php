@@ -49,10 +49,6 @@ vcsignore:
     language: php
     php:
         - 7.1
-        - hhvm
-    matrix:
-        allow_failures:
-            - php: hhvm
     cache:
         directories:
             - $HOME/.composer/cache
