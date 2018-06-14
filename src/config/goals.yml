@@ -70,3 +70,9 @@ travis:
             enabled: true
         external_code_coverage:
             timeout: 600
+    build:
+        nodes:
+            analysis:
+                tests:
+                    override:
+                        - php-scrutinizer-run
