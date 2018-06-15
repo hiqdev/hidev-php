@@ -17,6 +17,7 @@ package:
         - `CHANGELOG.md` with [hidev-chkipper]
         - `composer.json` with [hidev-composer]
         - [PHP-CS-Fixer] with [hidev-php-cs-fixer]
+        - [PHPStan] analysis with [hidev-phpstan]
         - [PHPUnit] tests with [hidev-phpunit]
         - [Travis] with [hidev-travis]
         - [Scrutinizer] with [hidev-scrutinizer]
@@ -26,11 +27,13 @@ package:
         [hidev-travis]:         https://github.com/hiqdev/hidev-travis
         [hidev-license]:        https://github.com/hiqdev/hidev-license
         [hidev-phpunit]:        https://github.com/hiqdev/hidev-phpunit
+        [hidev-phpstan]:        https://github.com/hiqdev/hidev-phpstan
         [hidev-chkipper]:       https://github.com/hiqdev/hidev-chkipper
         [hidev-composer]:       https://github.com/hiqdev/hidev-composer
         [hidev-scrutinizer]:    https://github.com/hiqdev/hidev-scrutinizer
         [hidev-php-cs-fixer]:   https://github.com/hiqdev/hidev-php-cs-fixer
         [php-cs-fixer]:         https://github.com/FriendsOfPHP/PHP-CS-Fixer
+        [phpstan]:              https://github.com/phpstan/phpstan
         [phpunit]:              https://phpunit.de/
         [travis]:               https://travis-ci.org/
         [scrutinizer]:          https://scrutinizer-ci.com/
