@@ -23,6 +23,9 @@ build:
     before:
         - fix
         - test
+check:
+    before:
+        - phpstan
 
 readme:
     badges:
