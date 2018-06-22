@@ -13,7 +13,8 @@ update:
     before:
         - composer/update
 fix:
-    before: php-cs-fixer
+    before:
+        - php-cs-fixer
 test:
     before:
         - install
