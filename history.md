@@ -1,5 +1,14 @@
 # hiqdev/hidev-php
 
+## [0.6.2] - 2018-06-22
+
+- Added `hidev-phpstan` and `check` command
+    - [1659b1c] 2018-06-22 added `hidev check` command to run phpstan [@hiqsol]
+    - [5a85a2a] 2018-06-22 csfixed [@hiqsol]
+    - [39fd170] 2018-06-15 still adding phpstan [@hiqsol]
+    - [68e1cc9] 2018-06-14 added require `hidev-phpstan` [@hiqsol]
+    - [873550d] 2018-06-14 added `php-scrutinizer-run` [@hiqsol]
+
 ## [0.6.1] - 2017-11-10
 
 - Removed build PHP 5.6, 7.0 and HHVM from Travis
@@ -306,7 +315,6 @@
 [992bed5]: https://github.com/hiqdev/hidev-php/commit/992bed5
 [bc665f6]: https://github.com/hiqdev/hidev-php/commit/bc665f6
 [70f7637]: https://github.com/hiqdev/hidev-php/commit/70f7637
-[Under development]: https://github.com/hiqdev/hidev-php/compare/0.6.0...HEAD
 [0.4.3]: https://github.com/hiqdev/hidev-php/compare/0.4.2...0.4.3
 [0.4.2]: https://github.com/hiqdev/hidev-php/compare/0.4.1...0.4.2
 [0.4.1]: https://github.com/hiqdev/hidev-php/compare/0.4.0...0.4.1
@@ -344,3 +352,9 @@
 [ae4cdda]: https://github.com/hiqdev/hidev-php/commit/ae4cdda
 [1f0c2c8]: https://github.com/hiqdev/hidev-php/commit/1f0c2c8
 [0.6.1]: https://github.com/hiqdev/hidev-php/compare/0.6.0...0.6.1
+[39fd170]: https://github.com/hiqdev/hidev-php/commit/39fd170
+[68e1cc9]: https://github.com/hiqdev/hidev-php/commit/68e1cc9
+[873550d]: https://github.com/hiqdev/hidev-php/commit/873550d
+[0.6.2]: https://github.com/hiqdev/hidev-php/compare/0.6.1...0.6.2
+[1659b1c]: https://github.com/hiqdev/hidev-php/commit/1659b1c
+[5a85a2a]: https://github.com/hiqdev/hidev-php/commit/5a85a2a
