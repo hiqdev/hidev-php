@@ -44,7 +44,6 @@
     ],
     "require": {
         "hiqdev/composer-config-plugin": "*@dev",
-        "hiqdev/hidev-readme": "*",
         "hiqdev/hidev-travis": "*",
         "hiqdev/hidev-license": "*",
         "hiqdev/hidev-phpstan": "*",
