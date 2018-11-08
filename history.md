@@ -1,5 +1,13 @@
 # hiqdev/hidev-php
 
+## [0.6.3] - 2018-11-08
+
+- Removed README goal from default
+    - [7923cc0] 2018-11-08 Removed `versioneye` cause it was closed [@hiqsol]
+    - [e32ac28] 2018-07-12 added PHP 7.2 to travis build [@hiqsol]
+    - [c06427e] 2018-07-12 removed `README.md` from before default [@hiqsol]
+    - [e0abf68] 2018-07-12 removed `hidev-readme` from required [@hiqsol]
+
 ## [0.6.2] - 2018-06-22
 
 - Added `hidev-phpstan` and `check` command
@@ -358,3 +366,9 @@
 [0.6.2]: https://github.com/hiqdev/hidev-php/compare/0.6.1...0.6.2
 [1659b1c]: https://github.com/hiqdev/hidev-php/commit/1659b1c
 [5a85a2a]: https://github.com/hiqdev/hidev-php/commit/5a85a2a
+[7923cc0]: https://github.com/hiqdev/hidev-php/commit/7923cc0
+[e32ac28]: https://github.com/hiqdev/hidev-php/commit/e32ac28
+[c06427e]: https://github.com/hiqdev/hidev-php/commit/c06427e
+[e0abf68]: https://github.com/hiqdev/hidev-php/commit/e0abf68
+[Under development]: https://github.com/hiqdev/hidev-php/compare/0.6.2...HEAD
+[0.6.3]: https://github.com/hiqdev/hidev-php/compare/0.6.2...0.6.3

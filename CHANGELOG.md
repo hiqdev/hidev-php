@@ -1,5 +1,9 @@
 # hiqdev/hidev-php
 
+## [0.6.3] - 2018-11-08
+
+- Removed README goal from default ([@hiqsol])
+
 ## [0.6.2] - 2018-06-22
 
 - Added `hidev-phpstan` and `check` command ([@hiqsol])
@@ -169,3 +173,5 @@
 [0.6.0]: https://github.com/hiqdev/hidev-php/compare/0.4.5...0.6.0
 [0.6.1]: https://github.com/hiqdev/hidev-php/compare/0.6.0...0.6.1
 [0.6.2]: https://github.com/hiqdev/hidev-php/compare/0.6.1...0.6.2
+[Under development]: https://github.com/hiqdev/hidev-php/compare/0.6.2...HEAD
+[0.6.3]: https://github.com/hiqdev/hidev-php/compare/0.6.2...0.6.3
