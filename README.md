@@ -7,7 +7,6 @@
 [![Build Status](https://img.shields.io/travis/hiqdev/hidev-php.svg)](https://travis-ci.org/hiqdev/hidev-php)
 [![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hidev-php.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-php/)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-php.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-php/)
-[![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-php/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-php/dev-master)
 
 [HiDev] is the automation tool mixed with code generator for easier continuous development.
 This plugin provides basic HiDev configuration for PHP projects.
