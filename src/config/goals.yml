@@ -33,7 +33,6 @@ readme:
         travis.build:
         scrutinizer.coverage:
         scrutinizer.quality:
-        versioneye.dependencies:
 
 .php_cs:
     level: psr2
