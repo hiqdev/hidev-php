@@ -1,10 +1,9 @@
 package:
-    type:           yii2-extension
+    type:           library
     name:           hidev-php
     title:          HiDev plugin for PHP projects
     headline:       HiDev PHP
-    keywords:       hidev, config, php
-    namespace:      hidev\php
+    keywords:       hidev, plugin, php
     description:    |
         [HiDev] is the automation tool mixed with code generator for easier continuous development.
         This plugin provides basic HiDev configuration for PHP projects.

@@ -1,10 +1,10 @@
 {
     "name": "hiqdev/hidev-php",
-    "type": "yii2-extension",
+    "type": "library",
     "description": "HiDev plugin for PHP projects",
     "keywords": [
         "hidev",
-        "config",
+        "plugin",
         "php"
     ],
     "homepage": "https://github.com/hiqdev/hidev-php",
@@ -44,27 +44,22 @@
     ],
     "require": {
         "hiqdev/composer-config-plugin": "*@dev",
-        "hiqdev/hidev-travis": "*",
-        "hiqdev/hidev-license": "*",
-        "hiqdev/hidev-phpstan": "*",
-        "hiqdev/hidev-phpunit": "*",
-        "hiqdev/hidev-chkipper": "*",
-        "hiqdev/hidev-composer": "*",
-        "hiqdev/hidev-scrutinizer": "*",
-        "hiqdev/hidev-php-cs-fixer": "*"
+        "hiqdev/hidev-travis": "^1.0@dev",
+        "hiqdev/hidev-license": "^1.0@dev",
+        "hiqdev/hidev-phpstan": "^1.0@dev",
+        "hiqdev/hidev-phpunit": "^1.0@dev",
+        "hiqdev/hidev-chkipper": "^1.0@dev",
+        "hiqdev/hidev-composer": "^1.0@dev",
+        "hiqdev/hidev-scrutinizer": "^1.0@dev",
+        "hiqdev/hidev-php-cs-fixer": "^1.0@dev"
     },
     "require-dev": {
-        "hiqdev/hidev": "dev-master",
-        "hiqdev/hidev-hiqdev": "dev-master",
-        "hiqdev/hidev-readme": "dev-master",
-        "hiqdev/hidev-travis": "dev-master",
-        "hiqdev/hidev-license": "dev-master",
-        "hiqdev/hidev-phpstan": "dev-master",
-        "hiqdev/hidev-phpunit": "dev-master",
-        "hiqdev/hidev-chkipper": "dev-master",
-        "hiqdev/hidev-composer": "dev-master",
-        "hiqdev/hidev-scrutinizer": "dev-master",
-        "hiqdev/hidev-php-cs-fixer": "dev-master"
+        "hiqdev/hidev": "^1.0@dev",
+        "hiqdev/hidev-hiqdev": "^1.0@dev",
+        "hiqdev/hidev-readme": "^1.0@dev",
+        "yiisoft/di": "^3.0@dev",
+        "yiisoft/log": "^3.0@dev",
+        "yiisoft/cache": "^3.0@dev"
     },
     "autoload": {
         "psr-4": {
@@ -79,6 +74,7 @@
             "hidev": "config/hidev.yml"
         }
     },
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "composer",
