@@ -44,6 +44,7 @@ phpunit:
 
 vcsignore:
     coverage.clover: phpunit generated files
+    .phpunit.result.cache: phpunit generated files
 
 .travis.yml:
     sudo: false
