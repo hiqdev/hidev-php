@@ -43,8 +43,8 @@ phpunit:
     coverageClover: true
 
 vcsignore:
-    coverage.clover: phpunit generated files
-    .phpunit.result.cache: phpunit generated files
+    coverage.clover: dynamic files
+    .phpunit.result.cache: dynamic files
 
 .travis.yml:
     sudo: false
