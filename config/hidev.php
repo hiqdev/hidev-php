@@ -22,6 +22,6 @@ return [
         ],
     ],
     'aliases' => [
-        '@hidev/php' => dirname(__DIR__),
+        '@hidev/php' => dirname(__DIR__) . '/src',
     ],
 ];
