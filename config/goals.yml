@@ -3,8 +3,6 @@ default:
         - composer.json
         - LICENSE
         - .gitignore
-        - .travis.yml
-        - .scrutinizer.yml
 install:
     before:
         - composer/install
@@ -26,14 +24,6 @@ check:
     before:
         - phpstan
 
-readme:
-    badges:
-        packagist.stable:
-        packagist.downloads:
-        travis.build:
-        scrutinizer.coverage:
-        scrutinizer.quality:
-
 .php_cs:
     level: psr2
 
@@ -46,39 +36,3 @@ vcsignore:
     coverage.clover: dynamic files
     .phpunit.result.cache: dynamic files
 
-.travis.yml:
-    sudo: false
-    dist: trusty
-    language: php
-    php:
-        - 7.1
-        - 7.2
-        - 7.3
-        - 7.4
-    cache:
-        directories:
-            - $HOME/.composer/cache
-    before_install:
-        - composer self-update
-        - composer --version
-
-travis:
-    after_script:
-        - scrutinizer/upload-coverage
-
-.scrutinizer.yml:
-    checks:
-        php:
-            code_rating: true
-            duplication: true
-    tools:
-        php_code_coverage:
-            enabled: true
-        external_code_coverage:
-            timeout: 600
-    build:
-        nodes:
-            analysis:
-                tests:
-                    override:
-                        - php-scrutinizer-run
