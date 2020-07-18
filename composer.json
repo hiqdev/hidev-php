@@ -45,9 +45,7 @@
     "require": {
         "yiisoft/composer-config-plugin": "*@dev",
         "hiqdev/hidev-license": "*",
-        "hiqdev/hidev-phpstan": "*",
         "hiqdev/hidev-phpunit": "*",
-        "hiqdev/hidev-chkipper": "*",
         "hiqdev/hidev-composer": "*",
         "hiqdev/hidev-php-cs-fixer": "*"
     },
