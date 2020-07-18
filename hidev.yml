@@ -39,4 +39,4 @@ package:
         [scrutinizer]:          https://scrutinizer-ci.com/
 
 include:
-    - src/config/goals.yml
+    - config/goals.yml
