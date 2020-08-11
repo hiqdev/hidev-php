@@ -9,7 +9,6 @@
  */
 
 return [
-    'aliases' => $aliases,
     'components' => [
         'include' => [
             __DIR__ . '/goals.yml',
