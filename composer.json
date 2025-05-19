@@ -44,6 +44,7 @@
     ],
     "require": {
         "yiisoft/composer-config-plugin": "*@dev",
+        "opis/closure": "3.x-dev as 3.6.x-dev",
         "hiqdev/hidev-license": "*",
         "hiqdev/hidev-phpunit": "*",
         "hiqdev/hidev-composer": "*",
